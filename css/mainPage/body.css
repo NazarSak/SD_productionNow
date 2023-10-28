@@ -62,7 +62,8 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100vw;
+    width: 83.33vw;
+    margin-bottom: 15.63vw;
     height: auto;
     object-fit: cover;
   }
@@ -82,5 +83,10 @@ main {
   .desktop,
   .tablet {
     display: none;
+  }
+  .imageHero{
+    margin-top: 24.42vw;
+    margin-bottom:0;
+    width: 100vw;
   }
 }

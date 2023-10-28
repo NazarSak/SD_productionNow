@@ -151,7 +151,7 @@
 
     border-radius: 1vw;
     border: 0;
-    background: #000;
+    /* background: #000; */
   }
   .langHide li:not(.languageActive) {
     display: none;
@@ -259,7 +259,7 @@
 @media only screen and (max-width: 767px) {
   .HamburgerMenuContainerLanguage {
     display: flex;
-    gap: 3.2vw;
+    gap: 6.40vw;
   }
   .HamburgerMenuContainerLanguage button {
     background: black;

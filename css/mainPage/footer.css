@@ -794,7 +794,9 @@
   }
   .footerInfo .mediaInfo {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 6.25vw;
   }
   .footerInfo .mediaInfo li {

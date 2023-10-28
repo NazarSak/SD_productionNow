@@ -342,6 +342,8 @@
   }
 }
 @media only screen and (max-width: 767px) {
+
+
   #services {
     margin: 4.27vw 0;
     padding: 0;
@@ -457,7 +459,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 0.63vw;
+    gap: 3.63vw;
 
     font-size: 16px;
     font-style: normal;
@@ -492,11 +494,6 @@
   .servicesFragment .serviceButton:hover .leftPurple {
     opacity: 1;
   }
-
-
-
-
-
 
 
 

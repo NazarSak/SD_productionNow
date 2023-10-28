@@ -189,6 +189,7 @@
   .slider-name div {
     display: flex;
     gap: 5.73vw;
+    outline: none;
   }
   .swiper-button-prev-custom {
     width: 7.29vw;
@@ -239,7 +240,7 @@
     color: white;
   }
   #ourTeam {
-    margin: 1.30vw 0;
+    margin: 16.93vw 0;
     width: 100vw;
     height: 70vw;
     background: #000;
@@ -446,6 +447,7 @@
   #ourTeam .slider-name div {
     margin-top: 45vw;
     gap: 14vw;
+    outline: none;
   }
   #ourTeam h2 {
     color: #fcfcfc;
@@ -497,7 +499,8 @@
     display: block;
   }
   .mySwiperBox .contend .slide-name {
-    margin-top: 25vw;
+    /* margin-top: 25vw; */
+    margin-top: 15vw;
     width: 30vw;
     color: #fff;
     font-family: Montserrat;
@@ -514,7 +517,7 @@
     font-size: 4.267vw;
     font-style: normal;
     font-weight: 500;
-    line-height: 4vw;
+    line-height: 6vw;
   }
   .mySwiperBox .contend .linkTeams {
     z-index: 100;

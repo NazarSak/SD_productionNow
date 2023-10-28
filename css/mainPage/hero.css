@@ -141,8 +141,8 @@
   }
   .crlectImg {
     position: absolute;
-    margin-top: -0.78vw;
-    margin-left: 41.58vw;
+    margin-top: 10.22vw;
+    margin-left: -21.42vw;
     width: 30.21vw;
     height: 13.02vw;
   }
@@ -173,7 +173,7 @@
     font-family: Montserrat;
     font-size: 8.33vw;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
   }
   .heroContend p {
@@ -281,7 +281,7 @@
     font-family: Montserrat;
     font-size: 14.93vw;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
   }
   .heroContend p {
