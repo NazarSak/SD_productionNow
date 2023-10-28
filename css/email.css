@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+::-webkit-scrollbar {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+}
+* {
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  outline: none;
+}
+body {
+  font-family: sans-serif;
+  background-color: #020202;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.borderText {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke: 1.5px #fff;
+  letter-spacing: 2.5px;
+}
+.buttonClose {
+  position: absolute;
+  margin-left: 52.08vw;
+  margin-top: 4.69vw;
+  display: block;
+  width: 1.25vw;
+  height: 1.25vw;
+}
+.buttonClose::after {
+  content: url("../img/email/ButtonClose.svg");
+  display: block;
+  width: 1.25vw;
+  height: 1.25vw;
+}
+.buttonClose:hover:after {
+  content: url("../img/email/ButtonCloseHover.svg");
+}
+.emailForm {
+  margin-top: 7.29vw;
+  width: 41.67vw;
+  height: 41.67vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/Group\ 1000001807.png");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: none;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 3.33vw;
+  font-style: normal;
+  font-weight: 700;
+}
+p {
+  width: 27.43vw;
+  color: #a1a1a1;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.04vw;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 0.36vw;
+  line-height: 140%;
+}
+
+form {
+  margin-top: 3.33vw;
+  width: 28.39vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25vw;
+}
+input {
+  padding: 0.83vw 1.25vw;
+  align-items: center;
+  gap: 0.52vw;
+  color: white;
+  background: transparent;
+  font-family: Montserrat;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  border-radius: 1.35vw;
+  border: 2px solid #c2c2c2;
+}
+.text:focus {
+  border: 2px solid #ffffff;
+}
+
+.message {
+  padding-bottom: 5.21vw;
+}
+.message:focus {
+  border: 2px solid #ffffff;
+}
+.button {
+  display: flex;
+  height: 2.6vw;
+  padding: 0.63vw 1.25vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.83vw;
+  gap: 0.52vw;
+  font-weight: 700;
+  border-radius: 2.03vw;
+  background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  border: none;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
+
+@media only screen and (max-width: 1179px) {
+  header {
+    display: flex;
+  }
+  h1 {
+    font-size: 8.33vw;
+  }
+  p {
+    width: 68.52vw;
+    font-size: 2.6vw;
+    margin-top: 1.3vw;
+    line-height: 140%;
+  }
+  form {
+    margin-top: 8.33vw;
+    width: 70.96vw;
+    gap: 3.13vw;
+  }
+  input {
+    padding: 2.08vw 3.13vw;
+    align-items: center;
+    gap: 1.3vw;
+    color: white;
+    background: transparent;
+    font-family: Montserrat;
+    font-size: 2.08vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    border-radius: 2.6vw;
+    border: 2px solid #c2c2c2;
+  }
+  .emailForm {
+    width: 100vw;
+    margin-top: 10.42vw;
+  }
+  .buttonClose {
+    position: absolute;
+    margin-left: 79.43vw;
+    margin-top: 29.95vw;
+    display: block;
+    width: 3.13vw;
+    height: 3.13vw;
+  }
+  .buttonClose::after {
+    content: url("../img/email/ButtonClose.svg");
+    display: block;
+    width: 3.13vw;
+    height: 3.13vw;
+  }
+  .button {
+    display: flex;
+    height: 7.81vw;
+    padding: 1.56vw 3.13vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.08vw;
+    gap: 1.30vw;
+    font-weight: 700;
+    border-radius: 5.08vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+    border: none;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: Montserrat;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .emailForm {
+    margin-top: 27.73vw;
+    width: 89.33vw;
+    height: auto;
+  }
+  header {
+    display: none;
+  }
+  h1 {
+    font-size: 10.67vw;
+    line-height: normal;
+  }
+  p {
+    width: 91.47vw;
+    font-size: 4.27vw;
+    line-height: 140%;
+    margin-top: 4vw;
+  }
+  input {
+    padding: 4.27vw 6.4vw;
+    align-items: center;
+    gap: 2.67vw;
+    color: white;
+    background: transparent;
+    font-family: Montserrat;
+    font-size: 4.27vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    border-radius: 5.33vw;
+    border: 2px solid #c2c2c2;
+  }
+  form {
+    margin-top: 17.07vw;
+    width: 100%;
+    gap: 6.4vw;
+  }
+  .buttonClose {
+    position: absolute;
+    margin-left: 79vw;
+    margin-top: 8.07vw;
+    display: block;
+    width: 6.4vw;
+    height: 6.4vw;
+    /* display: none; */
+  }
+  .buttonClose::after {
+    content: url("../img/email/ButtonClose.svg");
+    display: block;
+    width: 6.4vw;
+    height: 6.4vw;
+    /* display: none; */
+  }
+  .button {
+    display: flex;
+    height: 13.33vw;
+    padding: 3.2vw 39.2vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.27vw;
+    gap: 2.67vw;
+    font-weight: 700;
+    border-radius: 10.4vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+    border: none;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: Montserrat;
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/email.css" />
+    <title>Email page</title>
+  </head>
+  <body>
+
+
+    <header>
+      <div>
+        <a href="../en/home.html">
+          <img class="logo" src="../img/logo.svg" alt="SD" />
+        </a>
+      </div>
+      <div class="langChange langHide">
+        <ul>
+          <li class="languageActive">EN</li>
+          <li><a href="../du/email.html">DU</a></li>
+        </ul>
+        <img class="langImg" src="../img/Arrow.svg" alt="" />
+      </div>
+      <div class="HamburgerMenu hide">
+        <img
+          class="HamburgerMenuButton"
+          src="../img/HamburgerMenu.svg"
+          alt=""
+        />
+        <div class="HamburgerMenuNav">
+          <img
+            class="HamburgerMenuButtonClose"
+            src="../img/closeAction.svg"
+            alt=""
+          />
+          <ul>
+            <li>
+              <div class="HamburgerMenuContainerLanguage">
+                <button><a href="../en/organicShop.html">EN</a></button>
+                <div></div>
+                <button><a href="../du/organicShop.html">DE</a></button>
+              </div>
+            </li>
+            <li><a href="../du/home.html#">Hero</a></li>
+            <li><a href="../du/home.html#projects">Projekte</a></li>
+            <li><a href="../du/home.html#services">Dienstleistungen</a></li>
+            <li><a href="../du/home.html#ourTeam">Team</a></li>
+            <li><a href="../du/home.html#contentUs">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <a class="buttonClose" href="./home.html"></a>
+    <div class="emailForm">
+      <h1>Contact <span class="borderText">Us</span></h1>
+      <p>We'll help you find the right plan and pricing for your business.</p>
+      <form class="email">
+        <input class="text" type="text" name="name" placeholder="Name *" required/>
+        <input class="text emailInput" type="email" name="email" placeholder="Email *" required/>
+        <input
+          class="message"
+          type="text"
+          name="message"
+          placeholder="Comment"
+        />
+        <button class="button" type="submit">Send</button>
+      </form>
+    </div>
+    <script src="../js/formData.js"></script>
+    <script src="../js/buttonOnclik.js"></script>
+    <script src="../js/language.js"></script>
+  </body>
+</html>

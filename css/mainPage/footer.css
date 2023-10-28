@@ -1,0 +1,811 @@
+@media only screen and (min-width: 1180px) {
+  #contentUs {
+    padding-top: 7.29vw;
+    padding-bottom: 12.5vw;
+  }
+  .adoutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25vw;
+  }
+  .adoutUs h2 {
+    width: 32.08vw;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.92vw;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .adoutUs p {
+    width: 33.33vw;
+    color: #cfcfcf;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.83vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.4px;
+  }
+  .contentUsBtn {
+    display: flex;
+    width: 13.7vw;
+    height: 1.25vw;
+    padding: 0.83vw 1.67vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.04vw;
+    font-style: normal;
+    font-weight: 600;
+
+    border-radius: 52.08vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  .contentUsBtn:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  .group img {
+    margin-left: -1.56vw;
+    margin-top: -1.04vw;
+    width: 1.3vw;
+    height: 1.3vw;
+    position: absolute;
+  }
+  .group p {
+    width: min-content;
+    height: min-content;
+    padding: 0.42vw 0.83vw;
+
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    border-radius: 10vw;
+  }
+
+  .peopleBlue {
+    position: absolute;
+    margin-top: -25vw;
+    margin-left: 17.19vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlue;
+  }
+  .peopleBlue p {
+    background: #1570ef;
+  }
+  @keyframes peopleBlue {
+    0% {
+      margin-top: -25.26vw;
+      margin-left: 17.45vw;
+    }
+    100% {
+      margin-top: -24.48vw;
+      margin-left: 17.45vw;
+    }
+  }
+  .peopleRed {
+    position: absolute;
+    margin-top: -20.83vw;
+    margin-left: 4.17vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleRed;
+  }
+  .peopleRed p {
+    background: #d93036;
+  }
+  @keyframes peopleRed {
+    0% {
+      margin-top: -20.83vw;
+      margin-left: 3.65vw;
+    }
+    100% {
+      margin-top: -21.09vw;
+      margin-left: 4.17vw;
+    }
+  }
+  .peopleGreen {
+    position: absolute;
+    margin-top: -20.83vw;
+    margin-left: 29.69vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleGreen;
+  }
+  .peopleGreen p {
+    background: #039855;
+    color: #fff;
+  }
+  @keyframes peopleGreen {
+    0% {
+      margin-top: -20.83vw;
+      margin-left: 29.69vw;
+    }
+    100% {
+      margin-top: -20.31vw;
+      margin-left: 30.21vw;
+    }
+  }
+
+  .peoplePink {
+    position: absolute;
+    margin-top: 3.13vw;
+    margin-left: 31.25vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peoplePink;
+  }
+  .peoplePink p {
+    background: #dd2590;
+  }
+  @keyframes peoplePink {
+    0% {
+      margin-top: 3.13vw;
+      margin-left: 31.25vw;
+    }
+    100% {
+      margin-top: 2.6vw;
+      margin-left: 31.77vw;
+    }
+  }
+  .peopleBlueLight {
+    position: absolute;
+    margin-top: 7.29vw;
+    margin-left: 16.67vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlueLight;
+  }
+  .peopleBlueLight p {
+    background: #7cd4fd;
+    color: #000000;
+  }
+  @keyframes peopleBlueLight {
+    0% {
+      margin-top: 7.29vw;
+      margin-left: 16.67vw;
+    }
+    100% {
+      margin-top: 7.81vw;
+      margin-left: 16.93vw;
+    }
+  }
+  .peopleOrange {
+    position: absolute;
+    margin-top: 4.17vw;
+    margin-left: 4.17vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleOrange;
+  }
+  .peopleOrange p {
+    background: #dc6803;
+  }
+  @keyframes peopleOrange {
+    0% {
+      margin-top: 4.17vw;
+      margin-left: 4.17vw;
+    }
+    100% {
+      margin-top: 4.69vw;
+      margin-left: 3.65vw;
+    }
+  }
+
+  .peopleLightPink {
+    position: absolute;
+    margin-top: -14.17vw;
+    margin-left: -0.52vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
+  }
+  .peopleLightPink p {
+    background: #bf0099;
+  }
+  @keyframes peopleLightPink {
+    0% {
+      margin-top: -9.38vw;
+      margin-left: -5.21vw;
+    }
+    100% {
+      margin-top: -9.64vw;
+      margin-left: -4.69vw;
+    }
+  }
+
+  .peopleYellow {
+    position: absolute;
+    margin-top: -8.85vw;
+    margin-left: 41.67vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleYellow;
+  }
+  .peopleYellow p {
+    background: #fcff00;
+    color: #020202;
+  }
+  @keyframes peopleYellow {
+    0% {
+      margin-top: -8.85vw;
+      margin-left: 36.46vw;
+    }
+    100% {
+      margin-top: -8.85vw;
+      margin-left: 36.98vw;
+    }
+  }
+
+  footer .navigator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2.5vw;
+    font-size: 0.83vw;
+    list-style: none;
+  }
+  footer .navigator li {
+    text-align: center;
+  }
+  footer .navigator li:hover {
+    font-size: 0.78vw;
+    font-weight: 700;
+  }
+
+  footer {
+    margin: 3.13vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vw;
+  }
+  .footerInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2.08vw;
+  }
+  .mediaInfo {
+    display: flex;
+    justify-content: center;
+    gap: 2.5vw;
+  }
+  .mediaInfo li {
+    color: #fff;
+    opacity: 0.65;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .adoutUsText {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1179px) {
+  #contentUs {
+    display: block;
+    padding-top: 40vw;
+    padding-bottom: 40vw;
+  }
+  .adoutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+  }
+  .adoutUs h2 {
+    width: 81.77vw;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 7.29vw;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .adoutUs p {
+    margin-top: 3.13vw;
+    width: 41.15vw;
+    color: #cfcfcf;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.08vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.05vw;
+  }
+  .mediaInfo li {
+    font-size: 4.267vw;
+  }
+  .adoutUsTextMobile {
+    display: block;
+  }
+  .contentUsBtn {
+    margin-top: 4.17vw;
+    display: flex;
+    width: 10.68vw;
+    height: 3.13vw;
+    padding: 2.08vw 11.72vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.6vw;
+    font-style: normal;
+    font-weight: 600;
+
+    border-radius: 130.21vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+
+  .group p {
+    font-size: 2.08vw;
+    padding: 1.04vw 2.08vw;
+    border-radius: 100vw;
+  }
+  .group img {
+    position: absolute;
+    margin-left: -3vw;
+    margin-top: -2vw;
+    width: 3.26vw;
+    height: 3.26vw;
+  }
+
+  .peopleBlue {
+    position: absolute;
+    margin-top: -65vw;
+    margin-left: 50vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlue;
+  }
+  .peopleBlue p {
+    background: #1570ef;
+  }
+  @keyframes peopleBlue {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.95vw);
+    }
+  }
+  .peopleRed {
+    position: absolute;
+    margin-top: -50vw;
+    margin-left: 70vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleRed;
+  }
+  .peopleRed p {
+    background: #d93036;
+  }
+  @keyframes peopleRed {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.95vw);
+    }
+  }
+  .peopleGreen {
+    position: absolute;
+    margin-top: -65vw;
+    margin-left: 25vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleGreen;
+  }
+  .peopleGreen p {
+    background: #039855;
+    color: #fff;
+  }
+  @keyframes peopleGreen {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.95vw);
+    }
+  }
+
+  .peoplePink {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 65vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peoplePink;
+  }
+  .peoplePink p {
+    background: #dd2590;
+  }
+  @keyframes peoplePink {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.95vw);
+    }
+  }
+  .peopleBlueLight {
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 25vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlueLight;
+  }
+  .peopleBlueLight p {
+    background: #7cd4fd;
+    color: #000000;
+  }
+  @keyframes peopleBlueLight {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.95vw);
+    }
+  }
+  .peopleOrange {
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 45vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleOrange;
+  }
+  .peopleOrange p {
+    background: #dc6803;
+  }
+  @keyframes peopleOrange {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.95vw);
+    }
+  }
+
+  .peopleLightPink {
+    position: absolute;
+    margin-top: -50vw;
+    margin-left: 5vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
+  }
+  .peopleLightPink p {
+    background: #bf0099;
+  }
+  @keyframes peopleLightPink {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.95vw);
+    }
+  }
+
+  .peopleYellow {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 5vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleYellow;
+  }
+  .peopleYellow p {
+    background: #fcff00;
+    color: #020202;
+  }
+  @keyframes peopleYellow {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.95vw);
+    }
+  }
+
+  footer {
+    margin: 0;
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.25vw;
+  }
+  footer .logo {
+    margin: 0;
+    width: 13.02vw;
+    height: 6.25vw;
+  }
+  .footerInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5.21vw;
+  }
+  .footerInfo .navigator {
+    display: flex;
+    gap: 6.25vw;
+  }
+  .footerInfo .navigator li {
+    font-size: 2.08vw;
+  }
+  .footerInfo .mediaInfo {
+    display: flex;
+    justify-content: center;
+    gap: 6.25vw;
+  }
+  .footerInfo .mediaInfo li {
+    font-size: 1.56vw;
+  }
+  .backgroundFooter {
+    position: absolute;
+    z-index: -1;
+    width: 60vw;
+    height: 60vw;
+    margin-top: -20vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #contentUs {
+    display: block;
+    padding-top: 40vw;
+    padding-bottom: 40vw;
+  }
+  .adoutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+  }
+  .adoutUs h2 {
+    width: 81.77vw;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+
+    font-size: 10.67vw;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .adoutUs p {
+    margin-top: 3.13vw;
+    width: 68vw;
+    color: #cfcfcf;
+    text-align: center;
+    font-family: Montserrat;
+
+    font-size: 4.27vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.05vw;
+  }
+  .mediaInfo li {
+    font-size: 4.267vw;
+  }
+  .adoutUsTextMobile {
+    display: block;
+  }
+  .contentUsBtn {
+    margin-top: 4.17vw;
+    display: flex;
+    width: 21.6vw;
+    height: 6.4vw;
+    padding: 4.27vw 24vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.33vw;
+    font-style: normal;
+    font-weight: 600;
+
+    border-radius: 130.21vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+
+  .group p {
+    font-size: 3.2vw;
+    padding: 1.04vw 2.08vw;
+    border-radius: 100vw;
+  }
+  .group img {
+    position: absolute;
+    margin-left: -4vw;
+    margin-top: -4vw;
+    width: 5.33vw;
+    height: 5.33vw;
+  }
+
+  .peopleBlue {
+    position: absolute;
+    margin-top: -85vw;
+    margin-left: 50vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlue;
+  }
+  .peopleBlue p {
+    background: #1570ef;
+  }
+  @keyframes peopleBlue {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.6vw);
+    }
+  }
+  .peopleRed {
+    position: absolute;
+    margin-top: -75vw;
+    margin-left: 70vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleRed;
+  }
+  .peopleRed p {
+    background: #d93036;
+  }
+  @keyframes peopleRed {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.6vw);
+    }
+  }
+  .peopleGreen {
+    position: absolute;
+    margin-top: -85vw;
+    margin-left: 25vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleGreen;
+  }
+  .peopleGreen p {
+    background: #039855;
+    color: #fff;
+  }
+  @keyframes peopleGreen {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.6vw);
+    }
+  }
+
+  .peoplePink {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 65vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peoplePink;
+  }
+  .peoplePink p {
+    background: #dd2590;
+  }
+  @keyframes peoplePink {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.6vw);
+    }
+  }
+  .peopleBlueLight {
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 25vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlueLight;
+  }
+  .peopleBlueLight p {
+    background: #7cd4fd;
+    color: #000000;
+  }
+  @keyframes peopleBlueLight {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.6vw);
+    }
+  }
+  .peopleOrange {
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 45vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleOrange;
+  }
+  .peopleOrange p {
+    background: #dc6803;
+  }
+  @keyframes peopleOrange {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.6vw);
+    }
+  }
+
+  .peopleLightPink {
+    position: absolute;
+    margin-top: -75vw;
+    margin-left: 5vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
+  }
+  .peopleLightPink p {
+    background: #bf0099;
+  }
+  @keyframes peopleLightPink {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.6vw);
+    }
+  }
+
+  .peopleYellow {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 5vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleYellow;
+  }
+  .peopleYellow p {
+    background: #fcff00;
+    color: #020202;
+  }
+  @keyframes peopleYellow {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 1.6vw);
+    }
+  }
+
+  footer {
+    margin: 0;
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  footer .logo {
+    margin: 0;
+    width: 100px;
+    height: 48px;
+  }
+  .footerInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5.21vw;
+  }
+  .footerInfo .mediaInfo {
+    display: flex;
+    justify-content: center;
+    gap: 6.25vw;
+  }
+  .footerInfo .mediaInfo li {
+    opacity: 0.65;
+    font-size: 14px;
+  }
+  .backgroundFooter {
+    position: absolute;
+    z-index: -1;
+    width: 50vw;
+    height: 50vw;
+    transform: scale(2);
+  }
+}

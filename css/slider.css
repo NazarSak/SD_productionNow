@@ -1,0 +1,542 @@
+@media only screen and (min-width: 1180px) {
+  .slider-name {
+    margin-bottom: 7.29vw;
+    height: min-content;
+    width: 61.46vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .slider-name div {
+    display: flex;
+    gap: 2.29vw;
+  }
+  .swiper-button-prev-custom {
+    width: 2.92vw;
+    height: 2.92vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1vw solid #595959;
+    border-radius: 100vw;
+  }
+  .swiper-button-next-custom {
+    width: 2.92vw;
+    height: 2.92vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1vw solid #595959;
+    border-radius: 100vw;
+  }
+  .swiper-button-prev-custom:hover {
+    border: 0.1vw solid #fcfcfc;
+  }
+  .swiper-button-next-custom:hover {
+    border: 0.1vw solid #fcfcfc;
+  }
+  .swiper-button-prev-custom::after {
+    position: relative;
+    padding-top: 0.16vw;
+    padding-right: 0.16vw;
+    width: 1.25vw;
+    height: 1.09vw;
+    font-family: swiper-icons;
+    content: 'prev';
+    font-size: 1.04vw;
+    text-align: center;
+    color: white;
+  }
+  .swiper-button-next-custom::after {
+    position: relative;
+    padding-top: 0.16vw;
+    padding-left: 0.16vw;
+    width: 1.25vw;
+    height: 1.09vw;
+    font-family: swiper-icons;
+    content: 'next';
+    font-size: 1.04vw;
+    text-align: center;
+    color: white;
+  }
+  #ourTeam {
+    margin-bottom: 8.33vw;
+    width: 61.46vw;
+    background: #000;
+  }
+  #ourTeam h2 {
+    color: #fcfcfc;
+    text-align: center;
+    font-size: 3.33vw;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .swiper .imageBW {
+    width: 15.63vw;
+    height: 15.63vw;
+    object-fit: cover;
+  }
+  .swiper .imageC {
+    width: 0;
+    height: 0;
+  }
+  .mySwiper * {
+    user-select: none;
+  }
+  .mySwiper {
+    margin-left: -2.08vw;
+    width: 48.75vw;
+    z-index: 0;
+  }
+  .prevSlider {
+    width: 12.19vw;
+    height: 15.63vw;
+  }
+  .contend {
+    width: 1.25vw;
+    height: 1.25vw;
+    display: none;
+  }
+  .swiperBox {
+    margin-top: -1.3vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 39.32vw;
+    width: 22.4vw;
+    height: 16.67vw;
+    display: flex;
+    border-radius: 1.67vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  .mySwiperBox {
+    margin-top: -1.3vw;
+    position: absolute;
+    z-index: 2;
+    margin-top: -5.21vw;
+    margin-left: 39.32vw;
+    width: 26.04vw;
+    height: 26.04vw;
+  }
+  .mySwiperBox .imageBW {
+    width: 0;
+    height: 0;
+  }
+  .mySwiperBox .imageC {
+    z-index: 100;
+    width: 17.86vw;
+    height: 17.86vw;
+    margin-top: 1.56vw;
+    margin-left: 6.09vw;
+  }
+  .mySwiperBox .contend {
+    margin-left: 1.56vw;
+    display: block;
+  }
+  .mySwiperBox .contend .slide-name {
+    margin-top: 3.65vw;
+    width: 8.13vw;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.72vw;
+  }
+  .mySwiperBox .contend .slide-description {
+    margin-top: 1.3vw;
+    width: 8.13vw;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 0.83vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.15vw;
+  }
+  .mySwiperBox .contend .linkTeams {
+    z-index: 100;
+    width: 2.08vw;
+    height: 2.08vw;
+    margin-top: 5.99vw;
+    margin-left: 0;
+  }
+  .mySwiperBox .swiper-slide .contend {
+    transition: 300ms;
+    opacity: 0;
+  }
+  .mySwiperBox .swiper-slide img {
+    transition: 300ms;
+    opacity: 0;
+  }
+  .mySwiperBox .swiper-slide-active .contend {
+    transition: 300ms;
+    opacity: 1;
+  }
+  .mySwiperBox .swiper-slide-active img {
+    transition: 300ms;
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 1179px) {
+  .slider-name {
+    margin-bottom: 18.23vw;
+    height: min-content;
+    width: 90vw;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .slider-name div {
+    display: flex;
+    gap: 5.73vw;
+  }
+  .swiper-button-prev-custom {
+    width: 7.29vw;
+    height: 7.29vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.26vw solid #595959;
+    border-radius: 100vw;
+  }
+  .swiper-button-next-custom {
+    width: 7.29vw;
+    height: 7.29vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.26vw solid #595959;
+    border-radius: 100vw;
+  }
+  .swiper-button-prev-custom:hover {
+    border: 0.26vw solid #fcfcfc;
+  }
+  .swiper-button-next-custom:hover {
+    border: 0.26vw solid #fcfcfc;
+  }
+  .swiper-button-prev-custom::after {
+    position: relative;
+    padding-top: 0.39vw;
+    padding-right: 0.39vw;
+    width: 3.13vw;
+    height: 2.73vw;
+    font-family: swiper-icons;
+    content: 'prev';
+    font-size: 2.60vw;
+    text-align: center;
+    color: white;
+  }
+  .swiper-button-next-custom::after {
+    position: relative;
+    padding-top: 0.39vw;
+    padding-left: 0.39vw;
+    width: 3.13vw;
+    height: 2.73vw;
+    font-family: swiper-icons;
+    content: 'next';
+    font-size: 2.60vw;
+    text-align: center;
+    color: white;
+  }
+  #ourTeam {
+    margin: 1.30vw 0;
+    width: 100vw;
+    height: 70vw;
+    background: #000;
+  }
+  #ourTeam h2 {
+    color: #fcfcfc;
+    text-align: center;
+    font-size: 8.33vw;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .swiper .imageBW {
+    width: 39.06vw;
+    height: 39.06vw;
+    object-fit: cover;
+  }
+  .swiper .imageC {
+    width: 0;
+    height: 0;
+  }
+  .mySwiper * {
+    user-select: none;
+  }
+  .mySwiper .swiper-slide {
+    width: 39.06vw;
+    opacity: 1;
+  }
+  .swiper-slide-active {
+    opacity: 1;
+  }
+  .mySwiper {
+    position: absolute;
+    margin-left: -53.78vw;
+    width: 100vw;
+    z-index: 0;
+  }
+  .prevSlider {
+    width: 30.47vw;
+    height: 39.06vw;
+  }
+  .contend {
+    width: 3.13vw;
+    height: 3.13vw;
+    display: none;
+  }
+  .swiperBox {
+    margin-top: -3.26vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 40vw;
+    width: 55.99vw;
+    height: 41.67vw;
+    display: flex;
+    border-radius: 4.17vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  .mySwiperBox {
+    margin-top: -3.26vw;
+    position: absolute;
+    z-index: 2;
+    margin-top: -13.02vw;
+    margin-left: 40vw;
+    width: 55.60vw;
+    height: 65.10vw;
+  }
+  .mySwiperBox .imageBW {
+    width: 0;
+    height: 0;
+  }
+  .mySwiperBox .imageC {
+    z-index: 100;
+    width: 44.66vw;
+    height: 44.66vw;
+    margin-top: 1.17vw;
+    margin-left: 15.23vw;
+  }
+  .mySwiperBox .contend {
+    margin-left: 3.91vw;
+    display: block;
+  }
+  .mySwiperBox .contend .slide-name {
+    margin-top: 9.11vw;
+    width: 20.31vw;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 3.13vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.30vw;
+  }
+  .mySwiperBox .contend .slide-description {
+    margin-top: 3.26vw;
+    width: 20.31vw;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 2.08vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.86vw;
+  }
+  .mySwiperBox .contend .linkTeams {
+    z-index: 100;
+    width: 5.21vw;
+    height: 5.21vw;
+    margin-top: 14.97vw;
+    margin-left: 0;
+  }
+  .mySwiperBox .swiper-slide .contend {
+    transition: 300ms;
+    opacity: 0;
+  }
+  .mySwiperBox .swiper-slide img {
+    transition: 300ms;
+    opacity: 0;
+  }
+  .mySwiperBox .swiper-slide-active .contend {
+    transition: 300ms;
+    opacity: 1;
+  }
+  .mySwiperBox .swiper-slide-active img {
+    transition: 300ms;
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #ourTeam {
+    margin-top: 0;
+    margin-bottom: 30vw;
+    width: 100vw;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .swiper-button-prev-custom {
+    width: 14.93vw;
+    height: 14.93vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.53vw solid #595959;
+    border-radius: 100vw;
+  }
+  .swiper-button-next-custom {
+    width: 14.93vw;
+    height: 14.93vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.53vw solid #595959;
+    border-radius: 100vw;
+  }
+  .swiper-button-prev-custom:hover {
+    border: 0.1vw solid #fcfcfc;
+  }
+  .swiper-button-next-custom:hover {
+    border: 0.1vw solid #fcfcfc;
+  }
+  .swiper-button-prev-custom::after {
+    position: relative;
+    padding-top: 0.16vw;
+    padding-right: 0.16vw;
+    width: 6.40vw;
+    height: 6.40vw;
+    font-family: swiper-icons;
+    content: 'prev';
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+  }
+  .swiper-button-next-custom::after {
+    position: relative;
+    padding-top: 0.16vw;
+    padding-left: 0.16vw;
+    width: 6.40vw;
+    height: 6.40vw;
+    font-family: swiper-icons;
+    content: 'next';
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+  }
+  #ourTeam .swiperBox {
+    margin-top: 30vw;
+    margin-left: 0;
+    width: 90vw;
+    height: 75vw;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    border-radius: 8vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  #ourTeam .slider-name {
+    position: absolute;
+    width: 90vw;
+    height: 50vw;
+    display: block;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #ourTeam .slider-name div {
+    margin-top: 45vw;
+    gap: 14vw;
+  }
+  #ourTeam h2 {
+    color: #fcfcfc;
+    text-align: center;
+    font-size: 9vw;
+    font-style: normal;
+    font-weight: 700;
+
+    display: block;
+  }
+  #ourTeam h2:nth-child(1) {
+    margin-top: 13vw;
+  }
+  #ourTeam .mySwiper {
+    display: none;
+  }
+  #ourTeam .mySwiperBox {
+    margin-top: 20vw;
+    margin-left: 0;
+    width: 90vw;
+    height: 85vw;
+    position: absolute;
+    z-index: 2;
+  }
+  #ourTeam .swiper-wrapper {
+    width: 85vw;
+    height: 85vw;
+  }
+  #ourTeam .swiper-slide {
+    display: flex;
+    width: 85vw;
+    height: 85vw;
+    border-radius: 8.53vw;
+  }
+  .mySwiperBox .imageBW {
+    width: 0;
+    height: 0;
+  }
+  .mySwiperBox .imageC {
+    z-index: 1;
+    width: 85vw;
+    height: 85vw;
+    margin-top: 0;
+    margin-left: 10vw;
+    display: block;
+  }
+  .mySwiperBox .contend {
+    margin-left: 5vw;
+    display: block;
+  }
+  .mySwiperBox .contend .slide-name {
+    margin-top: 25vw;
+    width: 30vw;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6vw;
+  }
+  .mySwiperBox .contend .slide-description {
+    margin-top: 5vw;
+    width: 30vw;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 4.267vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4vw;
+  }
+  .mySwiperBox .contend .linkTeams {
+    z-index: 100;
+    width: 9vw;
+    height: 9vw;
+    margin-top: 18vw;
+    margin-left: 2vw;
+  }
+  .mySwiperBox .swiper-slide .contend {
+    transition: 300ms;
+    opacity: 0;
+  }
+  .mySwiperBox .swiper-slide img {
+    transition: 300ms;
+    opacity: 0;
+  }
+  .mySwiperBox .swiper-slide-active .contend {
+    transition: 300ms;
+    opacity: 1;
+  }
+  .mySwiperBox .swiper-slide-active img {
+    transition: 300ms;
+    opacity: 1;
+  }
+}

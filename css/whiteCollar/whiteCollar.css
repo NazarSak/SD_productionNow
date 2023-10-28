@@ -1,0 +1,652 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+::-webkit-scrollbar {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+}
+* {
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #020202;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.borderText {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke: 1.5px #fff;
+  letter-spacing: 2.5px;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  color: #fff;
+  text-align: start;
+  font-family: Montserrat;
+  font-size: 3.33vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.gridBox {
+  display: grid;
+}
+#organicShop h3 {
+  font-weight: 800;
+  margin-bottom: 3.33vw;
+}
+#organicShop {
+  margin-top: 3.33vw;
+  width: 61.77vw;
+}
+#organicShop h4 {
+  color: #fc7158;
+  font-size: 1.25vw;
+  font-weight: 400;
+  text-align: start;
+}
+.organicShopImage {
+  width: 100%;
+}
+
+#aboutProject {
+  width: 61.46vw;
+  margin-top: 6.82vw;
+  display: flex;
+  align-items: center;
+}
+#aboutProject img {
+ width: 20.83vw; 
+}
+#aboutProject div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  gap: 2.50vw;
+}
+.aboutProjectBr {
+  display: block;
+  margin: 0 5.73vw;
+  width: 0.10vw;
+  height: 10.42vw;
+  background: radial-gradient(
+    4979852.87% 58.76% at 50% 49.67%,
+    rgba(163, 163, 163, 0.7) 0%,
+    rgba(117, 117, 117, 0) 89.9%
+  );
+}
+#aboutProject h3 {
+  text-wrap: nowrap;
+}
+#aboutProject p {
+  width: 25vw;
+  color: #cfcfcf;
+  font-family: Montserrat;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35vw;
+}
+
+#goalsAndObjectives {
+  width: 61.46vw;;
+  margin: 7.29vw 0;
+}
+#goalsAndObjectives ul {
+  margin-top: 2.50vw;
+  display: flex;
+  gap: 1.46vw;
+}
+#goalsAndObjectives li {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#goalsAndObjectives li h4 {
+  margin-right: 36px;
+  text-align: center;
+  font-size: 3.33vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#goalsAndObjectives li h4 span {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#goalsAndObjectives li h4::after {
+  content: ".";
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 3.33vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#goalsAndObjectives li p {
+  width: 10.42vw;
+  color: #cfcfcf;
+  font-family: Montserrat;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35vw;
+}
+
+#mainPage {
+  width: 61.46vw;
+  margin: 7.29vw 0;
+}
+#mainPage h3 {
+  margin-bottom: 3.33vw;
+}
+#mainPage div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mainPage div img:nth-child(1) {
+  border-radius: 40px;
+  border: 0.52vw solid #595959;
+
+  width: 61.46vw;
+}
+#mainPage div img:nth-child(2) {
+  border-bottom-left-radius: 2.08vw;
+  border-bottom-right-radius: 2.08vw;
+  width: 42.45vw;
+}
+
+#internalPages {
+  margin: 7.29vw 0;
+  display: flex;
+  gap: 7.29vw;
+}
+#internalPages div {
+  display: flex;
+  flex-direction: column;
+  gap: 7.29vw;
+}
+#internalPages div img {
+  border-radius: 2.08vw;
+  border: 5px solid #595959;
+  width: 26.04vw;
+}
+
+#nav {
+  margin-bottom: 7.29vw;
+  display: flex;
+  width: 61.46vw;
+  height: 1.35vw;
+  padding: 0.52vw 6.25vw;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2.08vw;
+  background: #181818;
+}
+#nav a {
+  display: flex;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35vw;
+  color: #cfcfcf;
+  gap: 1.04vw;
+}
+
+#nav a:hover {
+  font-size: 0.78vw;
+    font-weight: 700;
+}
+
+#nav div {
+  display: flex;
+  align-items: center;
+  gap: 0.83vw;
+}
+
+.next {
+  flex-direction: row-reverse;
+}
+
+#nav div img {
+  display: flex;
+  align-items: center;
+  width: 1.04vw;
+  height: 1.04vw;
+}
+
+@media screen and (max-width: 1179px) {
+  main > img {
+    width: auto;
+  }
+  main {
+    align-items: center;
+  }
+  main h3 {
+    font-family: Montserrat;
+    font-size: 5.21vw;
+    font-style: normal;
+    width: max-content;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #organicShop h3 {
+    font-weight: 700;
+    font-size: 8.33vw;
+    width: auto;
+    margin-bottom: 6.25vw;
+  }
+  #organicShop h4 {
+    /* width: 19.4vw; */
+    width: auto;
+    font-size: 3.13vw;
+  }
+  #organicShop {
+    margin-top: 0;
+    width: 87.5vw;
+    padding: 0 6.25vw;
+    margin-top: 1.3vw;
+  }
+  .organicShopImage {
+    height: 36vw;
+    object-fit: cover;
+  }
+  #aboutProject {
+    width: auto;
+    margin-top: 15.63vw;
+    padding: 0;
+    gap: 6.4vw;
+    flex-direction: row;
+  }
+  #aboutProject img {
+    width: 37.11vw;
+  }
+  #aboutProject div {
+    flex-wrap: wrap;
+    gap: 3.13vw;
+  }
+  #aboutProject p {
+    width: 36.72vw;
+    font-size: 2.08vw;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .aboutProjectBr {
+    width: 1px;
+    height: 39.97vw;
+    background: radial-gradient(
+      4979852.87% 58.76% at 50% 49.67%,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(117, 117, 117, 0) 89.9%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(0, 0, 0, 0) 89.9%
+    );
+    margin: 0;
+  }
+  #aboutProject .borderText {
+    display: block;
+    font-weight: 700;
+  }
+  .aboutProject {
+    width: 76vw;
+    height: 21vw;
+  }
+  .titleparagraphs {
+    font-size: 11vw;
+    font-weight: 700;
+  }
+  #goalsAndObjectives {
+    margin: 17vw 0 13vw;
+    padding: 0 6.25vw;
+    width: auto;
+  }
+  #goalsAndObjectives ul {
+    margin-top: 4.17vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #goalsAndObjectives li {
+    width: 39.06vw;
+  }
+  #goalsAndObjectives li h4 {
+    margin-right: 2.08vw;
+    text-align: center;
+    font-size: 8.33vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4 span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.33vw;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4::after {
+    content: ".";
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 8.33vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #goalsAndObjectives li p {
+    width: 100%;
+    color: #cfcfcf;
+    font-family: Montserrat;
+    font-size: 2.08vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  #mainPage {
+    margin: 15.63vw 0;
+    padding: 0 6.15vw;
+    width: auto;
+  }
+  #mainPage h3 {
+    margin-bottom: 3.13vw;
+    width: auto;
+  }
+  #mainPage div img:nth-child(1) {
+    border: 5px solid var(--grey-B, #595959);
+    border-radius: 40px;
+    width: 86.2vw;
+  }
+  #mainPage div img:nth-child(2) {
+    border-radius: 0 0 5.333vw 5.333vw;
+    width: 60.42vw;
+  }
+  #internalPages div:nth-child(2) {
+    margin-top: 13.67vw;
+  }
+  #internalPages div {
+    display: flex;
+    flex-direction: column;
+    gap: 6.25vw;
+  }
+  #internalPages div img {
+    border-radius: 40px;
+    border: 5px solid #595959;
+    width: 39.32vw;
+  }
+  #internalPages {
+    margin: 15.63vw 0;
+    display: flex;
+    gap: 6.25vw;
+    padding: 0 5.99vw;
+  }
+  #nav {
+    padding: 2.34vw 2.08vw;
+    width: 83.33vw;
+    border-radius: 5.21vw;
+    justify-content: space-between;
+    margin-bottom: 12.8vw;
+  }
+
+  #nav a {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 2.08vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    color: #cfcfcf;
+  }
+  #nav div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  #nav img {
+    display: block;
+    width: 5.333vw;
+    height: 5.333vw;
+  }
+  #nav div img {
+    width: 2.60vw;
+    height: 2.60vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main > img {
+    width: 100vw;
+  }
+  main {
+    align-items: center;
+  }
+  main h3 {
+    font-family: Montserrat;
+    font-size: 10.667vw;
+    font-style: normal;
+    width: auto;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #organicShop h3 {
+    font-weight: 700;
+    font-size: 9vw;
+    width: 66.4vw;
+  }
+  #organicShop h4 {
+    width: 66.4vw;
+    font-size: 6.4vw;
+  }
+  #organicShop {
+    margin-top: 0;
+    width: 91.467vw;
+    margin-top: 13vw;
+    padding: 0 4vw;
+  }
+  .organicShopImage {
+    height: 36vw;
+    object-fit: cover;
+  }
+  #aboutProject {
+    width: 100vw;
+    margin-top: 18vw;
+    padding: 0;
+    gap: 6.4vw;
+    flex-direction: column-reverse;
+  }
+  #aboutProject img {
+    width: 76vw;
+  }
+  #aboutProject div {
+    flex-wrap: wrap;
+    gap: 9vw;
+  }
+  #aboutProject p {
+    width: 91.467vw;
+    font-size: 4.267vw;
+    font-weight: 400;
+    line-height: 6.933vw;
+  }
+  .aboutProjectBr {
+    height: 0.533vw;
+    width: 53.333vw;
+    background: radial-gradient(
+      4979852.87% 58.76% at 50% 49.67%,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(117, 117, 117, 0) 89.9%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(0, 0, 0, 0) 89.9%
+    );
+    margin: 0;
+  }
+  #aboutProject .borderText {
+    display: block;
+    font-weight: 700;
+  }
+  .aboutProject {
+    width: 76vw;
+    height: 21vw;
+  }
+  .titleparagraphs {
+    font-size: 11vw;
+    font-weight: 700;
+  }
+  #goalsAndObjectives {
+    margin: 17vw 0 13vw;
+    padding: 0 4vw;
+    width: auto;
+  }
+  #goalsAndObjectives ul {
+    margin-top: 12.8vw;
+    display: block;
+  }
+  #goalsAndObjectives li {
+    width: auto;
+  }
+  #goalsAndObjectives li h4 {
+    margin-right: 4.267vw;
+
+    text-align: center;
+    font-size: 17.067vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4 span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.07vw;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4::after {
+    content: ".";
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 17.067vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #goalsAndObjectives li p {
+    width: 100%;
+    color: #cfcfcf;
+    font-family: Montserrat;
+    font-size: 4.267vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.933vw;
+  }
+  #mainPage {
+    margin: 13vw 4vw;
+
+    /*  */
+    padding: 0;
+    /*  */
+    width: auto;
+  }
+  #mainPage h3 {
+    margin-bottom: 6vw;
+  }
+  #mainPage div img:nth-child(1) {
+    border: 0.8vw solid var(--grey-B, #595959);
+    border-radius: 5.333vw;
+    width: 91vw;
+  }
+  #mainPage div img:nth-child(2) {
+    border-radius: 0 0 5.333vw 5.333vw;
+    width: 63vw;
+  }
+  #internalPages div:nth-child(2) {
+    margin-top: 36.8vw;
+  }
+  #internalPages div {
+    display: flex;
+    flex-direction: column;
+    gap: 7vw;
+  }
+  #internalPages div img {
+    border-radius: 5.333vw;
+    border: 0.267vw solid #595959;
+    width: 41vw;
+  }
+  #internalPages {
+    margin: 13vw 0;
+    display: flex;
+    gap: 4vw;
+    padding: 0 4.267vw;
+  }
+  #nav {
+    padding: 6.1vw 4.267vw;
+    width: 91.467vw;
+    border-radius: 10.67vw;
+    justify-content: space-between;
+    margin-bottom: 12.8vw;
+  }
+
+  #nav a {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 4.267vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.933vw;
+    color: #cfcfcf;
+  }
+  #nav div {
+    display: flex;
+    align-items: center;
+    gap: 4.267vw;
+  }
+  #nav img {
+    display: block;
+    width: 5.333vw;
+    height: 5.333vw;
+  }
+  #nav div img {
+width: 5.33vw;
+height: 5.33vw;
+  }
+}

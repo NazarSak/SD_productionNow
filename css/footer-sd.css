@@ -1,0 +1,813 @@
+/* @media only screen and (max-width: 1000000px) { */
+  
+  #contentUs {
+    padding-top: 7.29vw;
+    padding-bottom: 12.5vw;
+  }
+  .adoutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25vw;
+  }
+  .adoutUs h2 {
+    width: 32.08vw;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.92vw;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .adoutUs p {
+    width: 33.33vw;
+    color: #cfcfcf;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.83vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.05vw;
+  }
+  .contentUsBtn {
+    display: flex;
+    width: 13.7vw;
+    height: 1.25vw;
+    padding: 0.83vw 1.67vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.04vw;
+    font-style: normal;
+    font-weight: 600;
+
+    border-radius: 52.08vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  .contentUsBtn:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  .group img {
+    margin-left: -1.56vw;
+    margin-top: -1.04vw;
+    position: absolute;
+  }
+  .group p {
+    width: min-content;
+    height: min-content;
+    padding: 0.42vw 0.83vw;
+
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 0.83vw;
+    font-style: normal;
+    font-weight: 500;
+
+    border-radius: 10vw;
+  }
+
+  .peopleBlue {
+    position: absolute;
+    margin-top: -25vw;
+    margin-left: 17.19vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlue;
+  }
+  .peopleBlue p {
+    background: #1570ef;
+  }
+  @keyframes peopleBlue {
+    0% {
+      margin-top: -25.26vw;
+      margin-left: 17.45vw;
+    }
+    100% {
+      margin-top: -24.48vw;
+      margin-left: 17.45vw;
+    }
+  }
+  .peopleRed {
+    position: absolute;
+    margin-top: -20.83vw;
+    margin-left: 4.17vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleRed;
+  }
+  .peopleRed p {
+    background: #d93036;
+  }
+  @keyframes peopleRed {
+    0% {
+      margin-top: -20.83vw;
+      margin-left: 3.65vw;
+    }
+    100% {
+      margin-top: -21.09vw;
+      margin-left: 4.17vw;
+    }
+  }
+  .peopleGreen {
+    position: absolute;
+    margin-top: -20.83vw;
+    margin-left: 29.69vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleGreen;
+  }
+  .peopleGreen p {
+    background: #039855;
+    color: #fff;
+  }
+  @keyframes peopleGreen {
+    0% {
+      margin-top: -20.83vw;
+      margin-left: 29.69vw;
+    }
+    100% {
+      margin-top: -20.31vw;
+      margin-left: 30.21vw;
+    }
+  }
+
+  .peoplePink {
+    position: absolute;
+    margin-top: 3.13vw;
+    margin-left: 31.25vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peoplePink;
+  }
+  .peoplePink p {
+    background: #dd2590;
+  }
+  @keyframes peoplePink {
+    0% {
+      margin-top: 3.13vw;
+      margin-left: 31.25vw;
+    }
+    100% {
+      margin-top: 2.6vw;
+      margin-left: 31.77vw;
+    }
+  }
+  .peopleBlueLight {
+    position: absolute;
+    margin-top: 7.29vw;
+    margin-left: 16.67vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlueLight;
+  }
+  .peopleBlueLight p {
+    background: #7cd4fd;
+    color: #000000;
+  }
+  @keyframes peopleBlueLight {
+    0% {
+      margin-top: 7.29vw;
+      margin-left: 16.67vw;
+    }
+    100% {
+      margin-top: 7.81vw;
+      margin-left: 16.93vw;
+    }
+  }
+  .peopleOrange {
+    position: absolute;
+    margin-top: 4.17vw;
+    margin-left: 4.17vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleOrange;
+  }
+  .peopleOrange p {
+    background: #dc6803;
+  }
+  @keyframes peopleOrange {
+    0% {
+      margin-top: 4.17vw;
+      margin-left: 4.17vw;
+    }
+    100% {
+      margin-top: 4.69vw;
+      margin-left: 3.65vw;
+    }
+  }
+
+  .peopleLightPink {
+    position: absolute;
+    margin-top: -14.17vw;
+    margin-left: -0.52vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
+  }
+  .peopleLightPink p {
+    background: #bf0099;
+  }
+  @keyframes peopleLightPink {
+    0% {
+      margin-top: -9.38vw;
+      margin-left: -5.21vw;
+    }
+    100% {
+      margin-top: -9.64vw;
+      margin-left: -4.69vw;
+    }
+  }
+
+  .peopleYellow {
+    position: absolute;
+    margin-top: -8.85vw;
+    margin-left: 41.67vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleYellow;
+  }
+  .peopleYellow p {
+    background: #fcff00;
+    color: #020202;
+  }
+  @keyframes peopleYellow {
+    0% {
+      margin-top: -8.85vw;
+      margin-left: 36.46vw;
+    }
+    100% {
+      margin-top: -8.85vw;
+      margin-left: 36.98vw;
+    }
+  }
+
+  footer .navigator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2.50vw;
+
+    font-size: 0.83vw;
+    list-style: none;
+  }
+  footer .navigator li {
+    text-align: center;
+    
+  }
+  footer .navigator li :hover {
+    font-size: 0.78vw;
+    font-weight: 700;
+  }
+
+  footer {
+    margin: 3.13vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.50vw;
+  }
+  .footerInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2.08vw;
+  }
+  .mediaInfo {
+    display: flex;
+    justify-content: center;
+    gap: 2.50vw;
+  }
+  .mediaInfo li {
+    color: #fff;
+    opacity: 0.65;
+    font-size: 0.83vw;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .adoutUsText {
+    display: block;
+  }
+  .adoutUsTextMobile {
+    display: none;
+  }
+  
+
+/* } */
+
+@media only screen and (max-width: 1179px) {
+  #contentUs {
+    display: block;
+    padding-top: 40vw;
+    padding-bottom: 40vw;
+  }
+  .adoutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.13vw;
+  }
+  .adoutUs h2 {
+    width: 90vw;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10vw;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .adoutUs p {
+    width: 64vw;
+    color: #cfcfcf;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 4.267vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.05vw;
+  }
+  .mediaInfo li {
+    font-size: 4.267vw;
+  }
+  .adoutUsText {
+    display: none;
+  }
+  .adoutUsTextMobile {
+    display: block;
+  }
+  .contentUsBtn {
+    margin-top: 10vw;
+    display: flex;
+    width: 60vw;
+    height: 12vw;
+    padding: 1vw 2vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 600;
+
+    border-radius: 130.21vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+
+  .group p {
+    font-size: 4.267vw;
+    padding: 1vw 2vw;
+  }
+  .group img {
+    margin-left: -5vw;
+    margin-top: -4vw;
+    width: 5vw;
+    height: 5vw;
+  }
+  .peopleBlue {
+    position: absolute;
+    margin-top: -100vw;
+    margin-left: 55vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlue;
+  }
+  .peopleBlue p {
+    background: #1570ef;
+  }
+  @keyframes peopleBlue {
+    0% {
+      margin-top: -101vw;
+      margin-left: 55vw;
+    }
+    100% {
+      margin-top: -99vw;
+      margin-left: 56vw;
+    }
+  }
+  .peopleRed {
+    position: absolute;
+    margin-top: -85vw;
+    margin-left: 70vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleRed;
+  }
+  .peopleRed p {
+    background: #d93036;
+  }
+  @keyframes peopleRed {
+    0% {
+      margin-top: -84vw;
+      margin-left: 70vw;
+    }
+    100% {
+      margin-top: -86vw;
+      margin-left: 71vw;
+    }
+  }
+  .peopleGreen {
+    position: absolute;
+    margin-top: -100vw;
+    margin-left: 30vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleGreen;
+  }
+  .peopleGreen p {
+    background: #039855;
+    color: #fff;
+  }
+  @keyframes peopleGreen {
+    0% {
+      margin-top: -101vw;
+      margin-left: 31vw;
+    }
+    100% {
+      margin-top: -99vw;
+      margin-left: 30vw;
+    }
+  }
+
+  .peoplePink {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 70vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peoplePink;
+  }
+  .peoplePink p {
+    background: #dd2590;
+  }
+  @keyframes peoplePink {
+    0% {
+      margin-top: 9vw;
+      margin-left: 71vw;
+    }
+    100% {
+      margin-top: 11vw;
+      margin-left: 69vw;
+    }
+  }
+  .peopleBlueLight {
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 30vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlueLight;
+  }
+  .peopleBlueLight p {
+    background: #7cd4fd;
+    color: #000000;
+  }
+  @keyframes peopleBlueLight {
+    0% {
+      margin-top: 19vw;
+      margin-left: 30vw;
+    }
+    100% {
+      margin-top: 22vw;
+      margin-left: 29vw;
+    }
+  }
+  .peopleOrange {
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 50vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleOrange;
+  }
+  .peopleOrange p {
+    background: #dc6803;
+  }
+  @keyframes peopleOrange {
+    0% {
+      margin-top: 20vw;
+      margin-left: 50vw;
+    }
+    100% {
+      margin-top: 19vw;
+      margin-left: 49vw;
+    }
+  }
+
+  .peopleLightPink {
+    position: absolute;
+    margin-top: -85vw;
+    margin-left: 10vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
+  }
+  .peopleLightPink p {
+    background: #bf0099;
+  }
+  @keyframes peopleLightPink {
+    0% {
+      margin-top: -84vw;
+      margin-left: 10vw;
+    }
+    100% {
+      margin-top: -85vw;
+      margin-left: 9vw;
+    }
+  }
+
+  .peopleYellow {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 10vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleYellow;
+  }
+  .peopleYellow p {
+    background: #fcff00;
+    color: #020202;
+  }
+  @keyframes peopleYellow {
+    0% {
+      margin-top: 10vw;
+      margin-left: 10vw;
+    }
+    100% {
+      margin-top: 9vw;
+      margin-left: 8vw;
+    }
+  }
+  .mainImg {
+    display: none;
+  }
+  .mainImgMobile {
+    display: block;
+  }
+  footer {
+    margin: 0;
+    height: 73vw;
+  }
+  footer .logo {
+    margin-top: 13vw;
+    margin-bottom: 10.67vw;
+    width: 20vw;
+  }
+  footer .navigator {
+    display: none;
+  }
+  .backgroundFooter {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vw;
+    margin-top: 10vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #contentUs {
+    display: block;
+    padding-top: 40vw;
+    padding-bottom: 40vw;
+  }
+  .adoutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.13vw;
+  }
+  .adoutUs h2 {
+    width: 90vw;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10vw;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .adoutUs p {
+    width: 64vw;
+    color: #cfcfcf;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 4.267vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.05vw;
+  }
+  .mediaInfo li {
+    font-size: 4.267vw;
+  }
+  .adoutUsText {
+    display: none;
+  }
+  .adoutUsTextMobile {
+    display: block;
+  }
+  .contentUsBtn {
+    margin-top: 10vw;
+    display: flex;
+    width: 60vw;
+    height: 12vw;
+    padding: 1vw 2vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 600;
+
+    border-radius: 130.21vw;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+
+  .group p {
+    font-size: 4.267vw;
+    padding: 1vw 2vw;
+  }
+  .group img {
+    margin-left: -5vw;
+    margin-top: -4vw;
+    width: 5vw;
+    height: 5vw;
+  }
+  .peopleBlue {
+    position: absolute;
+    margin-top: -100vw;
+    margin-left: 55vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlue;
+  }
+  .peopleBlue p {
+    background: #1570ef;
+  }
+  @keyframes peopleBlue {
+    0% {
+      margin-top: -101vw;
+      margin-left: 55vw;
+    }
+    100% {
+      margin-top: -99vw;
+      margin-left: 56vw;
+    }
+  }
+  .peopleRed {
+    position: absolute;
+    margin-top: -85vw;
+    margin-left: 70vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleRed;
+  }
+  .peopleRed p {
+    background: #d93036;
+  }
+  @keyframes peopleRed {
+    0% {
+      margin-top: -84vw;
+      margin-left: 70vw;
+    }
+    100% {
+      margin-top: -86vw;
+      margin-left: 71vw;
+    }
+  }
+  .peopleGreen {
+    position: absolute;
+    margin-top: -100vw;
+    margin-left: 30vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleGreen;
+  }
+  .peopleGreen p {
+    background: #039855;
+    color: #fff;
+  }
+  @keyframes peopleGreen {
+    0% {
+      margin-top: -101vw;
+      margin-left: 31vw;
+    }
+    100% {
+      margin-top: -99vw;
+      margin-left: 30vw;
+    }
+  }
+
+  .peoplePink {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 70vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peoplePink;
+  }
+  .peoplePink p {
+    background: #dd2590;
+  }
+  @keyframes peoplePink {
+    0% {
+      margin-top: 9vw;
+      margin-left: 71vw;
+    }
+    100% {
+      margin-top: 11vw;
+      margin-left: 69vw;
+    }
+  }
+  .peopleBlueLight {
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 30vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleBlueLight;
+  }
+  .peopleBlueLight p {
+    background: #7cd4fd;
+    color: #000000;
+  }
+  @keyframes peopleBlueLight {
+    0% {
+      margin-top: 19vw;
+      margin-left: 30vw;
+    }
+    100% {
+      margin-top: 22vw;
+      margin-left: 29vw;
+    }
+  }
+  .peopleOrange {
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 50vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleOrange;
+  }
+  .peopleOrange p {
+    background: #dc6803;
+  }
+  @keyframes peopleOrange {
+    0% {
+      margin-top: 20vw;
+      margin-left: 50vw;
+    }
+    100% {
+      margin-top: 19vw;
+      margin-left: 49vw;
+    }
+  }
+
+  .peopleLightPink {
+    position: absolute;
+    margin-top: -85vw;
+    margin-left: 10vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
+  }
+  .peopleLightPink p {
+    background: #bf0099;
+  }
+  @keyframes peopleLightPink {
+    0% {
+      margin-top: -84vw;
+      margin-left: 10vw;
+    }
+    100% {
+      margin-top: -85vw;
+      margin-left: 9vw;
+    }
+  }
+
+  .peopleYellow {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 10vw;
+
+    animation: 1s ease-in-out 1s infinite alternate peopleYellow;
+  }
+  .peopleYellow p {
+    background: #fcff00;
+    color: #020202;
+  }
+  @keyframes peopleYellow {
+    0% {
+      margin-top: 10vw;
+      margin-left: 10vw;
+    }
+    100% {
+      margin-top: 9vw;
+      margin-left: 8vw;
+    }
+  }
+  .mainImg {
+    display: none;
+  }
+  .mainImgMobile {
+    display: block;
+  }
+  footer {
+    margin: 0;
+    height: 73vw;
+  }
+  footer .logo {
+    margin-top: 13vw;
+    margin-bottom: 10.67vw;
+    width: 20vw;
+  }
+  footer .navigator {
+    display: none;
+  }
+  .backgroundFooter {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vw;
+    margin-top: 10vw;
+  }
+}

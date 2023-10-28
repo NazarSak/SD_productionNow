@@ -1,0 +1,316 @@
+@media only screen and (min-width: 1180px) {
+  .hero {
+    width: 98.11vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero::before {
+    position: absolute;
+    margin-top: -3.91vw;
+    margin-left: 18.23vw;
+    content: '';
+    display: block;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 3.91vw;
+    border: 0.15vw solid #fff;
+    background: rgba(217, 217, 217, 0.2);
+    backdrop-filter: blur(10px);
+    animation-name: leftRight;
+
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes leftRight {
+    0% {
+      margin-left: 18.23vw;
+    }
+    50% {
+      margin-left: 13.02vw;
+    }
+    100% {
+      margin-left: 18.23vw;
+    }
+  }
+  .crlectImg {
+    position: absolute;
+    margin-top: -0.78vw;
+    margin-left: 14.58vw;
+    width: 10.68vw;
+    height: 5.21vw;
+  }
+  .heroBackground {
+    margin-top: -6vw;
+    position: absolute;
+    z-index: -1;
+    width: 41.67vw;
+  }
+  .heroBlock {
+    margin-top: 8.33vw;
+    margin-bottom: 10.42vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroContend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25vw;
+  }
+  .heroContend h2 {
+    width: 36.46vw;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.92vw;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .heroContend p {
+    color: #e2e2e2;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.67vw;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .buttonHeader {
+    margin-top: 2.29vw;
+    padding: 0.83vw 4.69vw;
+    border-radius: 52.08vw;
+    font-size: 1.04vw;
+    font-style: normal;
+    font-weight: 600;
+
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  .buttonHeader:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+
+}
+@media only screen and (max-width: 1179px) {
+  .hero {
+    width: 100vw;
+    height: 83vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero::before {
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 18.23vw;
+    content: '';
+    display: block;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 8vw;
+    border: 0.15vw solid #fff;
+    background: rgba(217, 217, 217, 0.2);
+    backdrop-filter: blur(10px);
+    
+    animation-name: leftRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes leftRight {
+    0% {
+      margin-left: 18vw;
+    }
+    50% {
+      margin-left: 14vw;
+    }
+    100% {
+      margin-left: 18vw;
+    }
+  }
+  .crlectImg {
+    position: absolute;
+    margin-top: -0.78vw;
+    margin-left: 41.58vw;
+    width: 30.21vw;
+    height: 13.02vw;
+  }
+  .heroBackground {
+    /* margin-top: -6vw; */
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+  }
+  .heroBlock {
+    margin-top: 13vw;
+    margin-bottom: 10.42vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroContend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25vw;
+  }
+  .heroContend h2 {
+    width: 100vw;
+
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 8.33vw;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+  }
+  .heroContend p {
+    color: #e2e2e2;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 4.17vw;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .buttonHeader {
+    margin-top: 6.77vw;
+    padding: 2.08vw 11.85vw;
+    border-radius: 52.08vw;
+
+    font-size: 2.60vw;
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  .buttonHeader:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero {
+    margin-top: 26.67vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    display: block;
+
+    margin-top: -64.91vw;
+    margin-left: -20vw;
+    width: 12.80vw;
+    height: 12.80vw;
+
+    border-radius: 8vw;
+    border: 0.15vw solid #fff;
+    background: rgba(217, 217, 217, 0.2);
+    backdrop-filter: blur(10px);
+
+    animation-name: leftRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes leftRight {
+    0% {
+      margin-left: -67vw;
+    }
+    50% {
+      margin-left: -50vw;
+    }
+    100% {
+      margin-left: -67vw;
+    }
+  }
+  .crlectImg {
+    position: absolute;
+    margin-top: 40.22vw;
+    margin-left: 0.58vw;
+    width: 84.53vw;
+    height: 20.80vw;
+  }
+  .heroBackground {
+    margin-top: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+  }
+  .heroBlock {
+    margin-top: 13vw;
+    margin-bottom: 10.42vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroContend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25vw;
+  }
+  .heroContend h2 {
+    width: 100vw;
+
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14.93vw;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+  }
+  .heroContend p {
+    color: #e2e2e2;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 8.53vw;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .buttonHeader {
+    margin-top: 28.80vw;
+    padding: 4.27vw 24.27vw;
+    border-radius: 52.08vw;
+
+    font-size: 5.33vw;
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+  .buttonHeader:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+}
