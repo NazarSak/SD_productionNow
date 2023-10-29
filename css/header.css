@@ -238,6 +238,7 @@
     align-items: center;
     gap: 10vh;
     background-color: #000;
+    margin-top: 25vw;
   }
   .HamburgerMenuNav ul li {
     color: #fcfcfc;

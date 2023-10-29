@@ -686,7 +686,7 @@
   }
   .projectsCards {
     display: grid;
-    padding-top: 10vw;
+    /* padding-top: 10vw; */
     gap: 10.67vw;
   }
   .projectsFragment {
@@ -701,7 +701,7 @@
   }
 
   .projectsFragment1 {
-    padding: 5.33vw 0;
+    padding: 0 0 5.33vw 0;
     height: 135.47vw;
     background: transparent;
     display: flex;

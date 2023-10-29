@@ -168,6 +168,7 @@ input {
   .emailForm {
     width: 100vw;
     margin-top: 10.42vw;
+    height: 99.67vw;
   }
   .buttonClose {
     position: absolute;

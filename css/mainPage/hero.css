@@ -40,7 +40,7 @@
     position: absolute;
     margin-top: -0.78vw;
     margin-left: 7.12vw;
-    width: 10.68vw;
+    width: 11.68vw;
     height: 5.21vw;
   }
   .heroBackground {
@@ -70,7 +70,7 @@
     font-family: Montserrat;
     font-size: 2.92vw;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
   }
   .heroContend p {
     color: #e2e2e2;
@@ -144,8 +144,8 @@
     position: absolute;
     margin-top: -0.78vw;
     margin-left: 20.58vw;
-    width: 30.21vw;
-    height: 13.02vw;
+    width: 33.21vw;
+    height: 14.02vw;
   }
   .heroBackground {
     /* margin-top: -6vw; */
@@ -252,7 +252,11 @@
     position: absolute;
     margin-top: 40.22vw;
     margin-left: 0.58vw;
+
+
     width: 84.53vw;
+
+    
     height: 20.80vw;
   }
   .heroBackground {
