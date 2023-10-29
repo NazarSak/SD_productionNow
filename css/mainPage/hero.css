@@ -39,7 +39,7 @@
   .crlectImg {
     position: absolute;
     margin-top: -0.78vw;
-    margin-left: 14.58vw;
+    margin-left: 7.12vw;
     width: 10.68vw;
     height: 5.21vw;
   }
@@ -111,8 +111,9 @@
   }
   .hero::before {
     position: absolute;
-    margin-top: 19vw;
-    margin-left: 18.23vw;
+    margin-top: 2vw;
+    /* margin-left: 18.23vw; */
+    margin-right: -27.99vw;
     content: '';
     display: block;
     width: 7vw;
@@ -141,8 +142,8 @@
   }
   .crlectImg {
     position: absolute;
-    margin-top: 10.22vw;
-    margin-left: -21.42vw;
+    margin-top: -0.78vw;
+    margin-left: 20.58vw;
     width: 30.21vw;
     height: 13.02vw;
   }

@@ -239,7 +239,7 @@
 
     display: flex;
     align-items: center;
-    gap: 0.63vw;
+    gap: 1.63vw;
 
     font-size: 16px;
     font-style: normal;
@@ -330,15 +330,17 @@
     display: flex;
     flex-direction: row;
     width: 45.83vw;
+    gap: 7.81vw;
   }
   .tablet .servicesCards a:nth-child(3) .servicesFragment h3 {
     width: 74.09vw;
   }
   .serviseInfo {
     padding-left: 2.6vw;
-    width: 71.48vw;
-
+    width: 74.48vw;
+    gap: 7vw;
     display: flex;
+    align-items: baseline;
   }
 }
 @media only screen and (max-width: 767px) {

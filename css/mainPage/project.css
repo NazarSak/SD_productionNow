@@ -340,6 +340,7 @@
     display: flex;
     flex-direction: column;
     width: 87.5vw;
+    margin-top: 10.42vw;
     gap: 5.21vw;
   }
   .projectsCards h3 {
@@ -367,6 +368,8 @@
     overflow: hidden;
     display: flex;
     height: 46.35vw;
+    background: var(--grey-A, #1C1C1C);
+    border-radius: 2.60vw;
     justify-content: space-between;
   }
   .projectsFragmentInfo1 {
@@ -430,7 +433,8 @@
 
   .projectsFragment2 {
     border-radius: 2.08vw;
-    background: #111;
+    /* background: #111; */
+    background: var(--grey-A, #1C1C1C);
     height: 46.35vw;
     overflow: hidden;
     display: flex;
@@ -498,7 +502,8 @@
 
   .projectsFragment3 {
     border-radius: 2.08vw;
-    background: rgb(18, 18, 18);
+    /* background: rgb(18, 18, 18); */
+    background: var(--grey-A, #1C1C1C);
     height: 46.35vw;
     overflow: hidden;
 
@@ -511,7 +516,7 @@
     display: flex;
     width: 23.7vw;
     height: 26.04vw;
-    margin-top: 0.52vw;
+    margin-top: -2.48vw;
 
     padding: 8.33vw;
     flex-direction: column;
@@ -525,7 +530,8 @@
     display: flex;
     width: 100%;
     padding: 1.4vw 0;
-    font-size: 2.08vw;
+    /* font-size: 2.08vw; */
+    font-size: 1.2vw;
     font-weight: 600;
     justify-content: center;
     align-items: center;
@@ -568,7 +574,8 @@
 
   .projectsFragment4 {
     border-radius: 2.08vw;
-    background: rgb(18, 18, 18);
+    /* background: rgb(18, 18, 18); */
+    background: var(--grey-A, #1C1C1C);
     height: 46.35vw;
     overflow: hidden;
     display: flex;
@@ -696,7 +703,7 @@
   .projectsFragment1 {
     padding: 5.33vw 0;
     height: 135.47vw;
-
+    background: transparent;
     display: flex;
     flex-direction: column;
   }
@@ -765,6 +772,7 @@
 
     border-radius: 10.67vw;
     background: transparent;
+    
   }
   .projectsFragmentInfo2 {
     padding: 0;

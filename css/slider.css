@@ -178,6 +178,7 @@
     opacity: 1;
   }
 }
+
 @media only screen and (max-width: 1179px) {
   .slider-name {
     margin-bottom: 18.23vw;
@@ -366,8 +367,23 @@
     transition: 300ms;
     opacity: 1;
   }
+
+  .hero::before{
+    margin-top: -20vw;
+    margin-right: 53.01vw;
+  }
+
 }
+
+
 @media only screen and (max-width: 767px) {
+  
+  .hero::before{
+    margin-top: -64.91vw;
+    margin-left: -20vw;
+    margin-right: 0;
+  }
+  
   #ourTeam {
     margin-top: 0;
     margin-bottom: 30vw;
