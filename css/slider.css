@@ -9,6 +9,7 @@
   }
   .slider-name div {
     display: flex;
+    outline: none;
     gap: 2.29vw;
   }
   .swiper-button-prev-custom {
@@ -42,7 +43,7 @@
     width: 1.25vw;
     height: 1.09vw;
     font-family: swiper-icons;
-    content: 'prev';
+    content: "prev";
     font-size: 1.04vw;
     text-align: center;
     color: white;
@@ -54,13 +55,14 @@
     width: 1.25vw;
     height: 1.09vw;
     font-family: swiper-icons;
-    content: 'next';
+    content: "next";
     font-size: 1.04vw;
     text-align: center;
     color: white;
   }
   #ourTeam {
-    margin-bottom: 8.33vw;
+    margin-bottom: 12.33vw;
+    margin-top: 16.35vw;
     width: 61.46vw;
     background: #000;
   }
@@ -222,8 +224,8 @@
     width: 3.13vw;
     height: 2.73vw;
     font-family: swiper-icons;
-    content: 'prev';
-    font-size: 2.60vw;
+    content: "prev";
+    font-size: 2.6vw;
     text-align: center;
     color: white;
   }
@@ -234,8 +236,8 @@
     width: 3.13vw;
     height: 2.73vw;
     font-family: swiper-icons;
-    content: 'next';
-    font-size: 2.60vw;
+    content: "next";
+    font-size: 2.6vw;
     text-align: center;
     color: white;
   }
@@ -303,8 +305,8 @@
     z-index: 2;
     margin-top: -13.02vw;
     margin-left: 40vw;
-    width: 55.60vw;
-    height: 65.10vw;
+    width: 55.6vw;
+    height: 65.1vw;
   }
   .mySwiperBox .imageBW {
     width: 0;
@@ -329,7 +331,7 @@
     font-size: 3.13vw;
     font-style: normal;
     font-weight: 700;
-    line-height: 4.30vw;
+    line-height: 4.3vw;
   }
   .mySwiperBox .contend .slide-description {
     margin-top: 3.26vw;
@@ -403,10 +405,10 @@
     position: relative;
     padding-top: 0.16vw;
     padding-right: 0.16vw;
-    width: 6.40vw;
-    height: 6.40vw;
+    width: 6.4vw;
+    height: 6.4vw;
     font-family: swiper-icons;
-    content: 'prev';
+    content: "prev";
     font-size: 5vw;
     text-align: center;
     color: white;
@@ -415,10 +417,10 @@
     position: relative;
     padding-top: 0.16vw;
     padding-left: 0.16vw;
-    width: 6.40vw;
-    height: 6.40vw;
+    width: 6.4vw;
+    height: 6.4vw;
     font-family: swiper-icons;
-    content: 'next';
+    content: "next";
     font-size: 5vw;
     text-align: center;
     color: white;

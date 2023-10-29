@@ -243,7 +243,6 @@
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     gap: 2.50vw;
-
     font-size: 0.83vw;
     list-style: none;
   }

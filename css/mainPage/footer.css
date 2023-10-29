@@ -244,7 +244,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    gap: 2.5vw;
+    gap: 1vw;
+    width: 29.51vw;
     font-size: 0.83vw;
     list-style: none;
   }
@@ -561,7 +562,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 0;
+    gap: 6vw;
   }
   .adoutUs h2 {
     width: 81.77vw;
@@ -579,7 +580,7 @@
     color: #cfcfcf;
     text-align: center;
     font-family: Montserrat;
-
+    line-height: 140%; 
     font-size: 4.27vw;
     font-style: normal;
     font-weight: 400;
@@ -622,7 +623,7 @@
 
   .peopleBlue {
     position: absolute;
-    margin-top: -85vw;
+    margin-top: -101vw;
     margin-left: 50vw;
 
     animation: 1s ease-in-out 1s infinite alternate peopleBlue;
@@ -640,7 +641,7 @@
   }
   .peopleRed {
     position: absolute;
-    margin-top: -75vw;
+    margin-top: -91vw;
     margin-left: 70vw;
 
     animation: 1s ease-in-out 1s infinite alternate peopleRed;
@@ -658,7 +659,7 @@
   }
   .peopleGreen {
     position: absolute;
-    margin-top: -85vw;
+    margin-top: -101vw;
     margin-left: 25vw;
 
     animation: 1s ease-in-out 1s infinite alternate peopleGreen;
@@ -734,7 +735,7 @@
 
   .peopleLightPink {
     position: absolute;
-    margin-top: -75vw;
+    margin-top: -91vw;
     margin-left: 5vw;
 
     animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
