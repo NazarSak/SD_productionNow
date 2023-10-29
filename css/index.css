@@ -31,6 +31,10 @@ body {
   letter-spacing: 2.5px;
 }
 
+button {
+  cursor: pointer;
+}
+
 main {
   display: flex;
   flex-direction: column;

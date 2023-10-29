@@ -47,6 +47,14 @@ h3 {
   line-height: normal;
 }
 
+a {
+  transition: 0.7s;
+  opacity: 100;
+}
+a:hover {
+  opacity: 0.6;
+}
+
 .gridBox {
   display: grid;
 }

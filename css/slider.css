@@ -10,6 +10,8 @@
   .slider-name div {
     display: flex;
     outline: none;
+    cursor: pointer;
+    transition: 0.5s;
     gap: 2.29vw;
   }
   .swiper-button-prev-custom {
@@ -246,6 +248,7 @@
     margin: 16.93vw 0;
     width: 100vw;
     height: 70vw;
+    gap: 20vw;
     background: #000;
   }
   #ourTeam h2 {
@@ -258,6 +261,7 @@
   .swiper .imageBW {
     width: 39.06vw;
     height: 39.06vw;
+    margin-left: 7vw;
     object-fit: cover;
   }
   .swiper .imageC {

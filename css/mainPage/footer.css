@@ -159,7 +159,6 @@
     position: absolute;
     margin-top: 7.29vw;
     margin-left: 16.67vw;
-
     animation: 1s ease-in-out 1s infinite alternate peopleBlueLight;
   }
   .peopleBlueLight p {
@@ -371,6 +370,7 @@
       transform: translate(0, 0);
     }
     100% {
+
       transform: translate(0, 1.95vw);
     }
   }
@@ -389,7 +389,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.95vw);
+      transform: translate(-3vw, -1.95vw);
     }
   }
   .peopleGreen {

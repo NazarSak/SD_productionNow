@@ -25,25 +25,30 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1.56vw;
   }
+
+  .servicesCards a {
+    opacity: 1;
+  }
+
   .servicesFragment {
     margin: 0;
     padding: 0;
     padding: 3.13vw 0.52vw;
     width: 18.39vw;
     min-height: 18.44vw;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2.08vw;
-
+    transition: 0.5s;
     border-radius: 2.08vw;
     border: 0.05vw solid transparent;
     background: #181818;
   }
   .servicesFragment:hover {
     border: 0.05vw solid #bd00ff;
+
   }
   .servicesFragment ul {
     margin: 0;
@@ -69,7 +74,7 @@
     font-size: 0.94vw;
     font-style: normal;
     font-weight: 400;
-    list-style: url('../../img/Line4.svg');
+    list-style: url("../../img/Line4.svg");
     line-height: 1.51vw;
     letter-spacing: 0;
   }
@@ -84,7 +89,7 @@
     display: flex;
     align-items: center;
     gap: 0.63vw;
-
+    transition: 300ms;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -95,16 +100,14 @@
 
   .servicesFragment .serviceButton p {
     font-size: 0.83vw;
+    transition: 0.5s;
   }
   .servicesFragment .serviceButton img {
     margin: 0;
-    /* margin-top: -0.83vw;
-    margin-left: 6.41vw; */
+
     padding: 0;
     width: 0.78vw;
     height: 0.78vw;
-
-    /* position: absolute; */
     display: block;
 
     transition: 200ms;
@@ -225,7 +228,7 @@
     font-size: 2.34vw;
     font-style: normal;
     font-weight: 400;
-    list-style: url('../../img/Line4.svg');
+    list-style: url("../../img/Line4.svg");
     line-height: 1.51vw;
     letter-spacing: 0;
   }
@@ -344,8 +347,6 @@
   }
 }
 @media only screen and (max-width: 767px) {
-
-
   #services {
     margin: 4.27vw 0;
     padding: 0;
@@ -425,7 +426,7 @@
     font-size: 4.8vw;
     font-style: normal;
     font-weight: 400;
-    list-style: url('../../img/Line4.svg');
+    list-style: url("../../img/Line4.svg");
     line-height: 0;
     letter-spacing: 0;
   }
@@ -448,10 +449,6 @@
   .servicesFragment .serviceButton:hover {
     color: #7d3bd1;
   }
-
-
-
-
 
   .servicesFragment .serviceButton {
     margin: 0;
@@ -496,8 +493,6 @@
   .servicesFragment .serviceButton:hover .leftPurple {
     opacity: 1;
   }
-
-
 
   .servicesFragment .serviceHeader1 {
     background: linear-gradient(119deg, #61b554 21.38%, #76a90a 129.88%);
