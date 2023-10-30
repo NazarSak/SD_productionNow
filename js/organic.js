@@ -1,5 +1,5 @@
 function createObserver(selector, animationClass, direction) {
-  const element = document.querySelector(selector)
+	const element = document.querySelector(selector) || document.getElementById(selector)
 
 	const options = {
 		root: null,
@@ -18,7 +18,7 @@ function createObserver(selector, animationClass, direction) {
 					element.classList.add(animationClass + 'Bottom')
 				} else if (direction === 'top') {
 					element.classList.add(animationClass + 'Top')
-				}
+				} 
 			}
 		})
 	}
@@ -26,12 +26,16 @@ function createObserver(selector, animationClass, direction) {
 	const observer = new IntersectionObserver(callback, options)
 
 	observer.observe(element)
-} 
+}
 
-
-createObserver('.projectsFragment1', 'animation', 'right')
-createObserver('.projectsFragment2', 'animation', 'left')
-createObserver('.projectsFragment3', 'animation', 'left')
-createObserver('.projectsFragment4', 'animation', 'right')
-createObserver('.servicesCards', 'animation', 'bottom')
 createObserver('.header', 'animation', 'top')
+createObserver('.organicShopAnimation', 'animation', 'left')
+createObserver('.aboutProject', 'animation', 'right')
+createObserver('.goalsAndObjectives', 'animation', 'left')
+
+
+
+// createObserver('.header', 'animation', 'top')
+// createObserver('.header', 'animation', 'top')
+// createObserver('.header', 'animation', 'top')
+
