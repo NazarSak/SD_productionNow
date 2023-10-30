@@ -18,16 +18,16 @@
     animation: 2s show ease;
   }
 
-  @keyframes show {
-    0% {
-        left:0px;
-        opacity: 0;
+    @keyframes show {
+      0% {
+          transform: translateX(0);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(100px);
+          opacity:1;
+        }
       }
-      100% {
-        left:30px;
-        opacity:1;
-      }
-    } 
 
 
   .projectsCards {

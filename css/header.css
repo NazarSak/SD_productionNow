@@ -56,7 +56,7 @@
     text-align: center;
   }
   .navigator li:hover {
-    font-size: 0.78vw;
+    /* font-size: 0.78vw; */
     font-weight: 700;
   }
   .langChange ul {
@@ -239,12 +239,14 @@
     width: 100vw;
     height: 100%;
   }
+
   .HamburgerMenu {
     position: relative;
     display: block;
   }
   .HamburgerMenu img {
     width: 6.25vw;
+    display: none;
   }
   header .hide .HamburgerMenuNav {
     top: 0;
@@ -322,5 +324,6 @@
   }
   .HamburgerMenu img {
     width: 12.8vw;
+    display: block;
   }
 }
