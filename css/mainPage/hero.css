@@ -48,7 +48,7 @@
   .crlectImg {
     position: absolute;
     margin-top: -0.78vw;
-    margin-left: 7.12vw;
+    margin-left: 14.38vw;
     width: 11.68vw;
     height: 5.21vw;
   }
@@ -81,6 +81,7 @@
     font-style: normal;
     font-weight: 700;
   }
+
   .heroContend p {
     color: #e2e2e2;
     text-align: center;
@@ -89,6 +90,18 @@
     font-style: normal;
     font-weight: 400;
   }
+  .heroContend h2, p{
+    animation: 2s animationTextShow ease;
+  }
+  @keyframes animationTextShow {
+    from {
+      opacity: 0;
+
+    }
+    to { 
+      opacity: 1;
+    }
+  }
   .buttonHeader {
     margin-top: 2.29vw;
     padding: 0.83vw 4.69vw;
@@ -96,9 +109,19 @@
     font-size: 1.04vw;
     font-style: normal;
     font-weight: 600;
-    transition: 0.7s;
+    transition: 0.9s;
     opacity: 100;
     background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+    animation: 2s animationButtonShow ease;
+  }
+
+  @keyframes animationButtonShow {
+    from {
+      opacity: 0;
+    }
+    to { 
+      opacity: 1;
+    }
   }
 
   .buttonHeader:hover {

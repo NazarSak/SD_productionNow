@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1180px) {
   header {
-    margin-top: 2.08vw;
+    margin: 2.08vw auto 0;
     padding: 0.52vw 6.25vw;
     height: 5.21vw;
     width: 48.96vw;
@@ -14,10 +14,14 @@
     justify-content: space-between;
 
     background-color: #181818;
+    transition: all 0.9s;
+    transform: translateY(-30%);
+    opacity: 0;
   }
 
-  header{
-    animation: 2s show ease;
+  .animationTop {
+    transform: translateY(0);
+    opacity: 1;
   }
   
   /* @keyframes show {
@@ -25,17 +29,17 @@
     to { opacity: 1;top: 40px; }
   } */
 
-
-  @keyframes show {
-    0% {
-        transform: translateX(0);
-        opacity: 0;
-      }
-      100% {
-        transform: translateX(100px);
-        opacity:1;
-      }
-}
+/* 
+  @keyframes animationShow {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+} */
 
 
 
@@ -56,7 +60,7 @@
     text-align: center;
   }
   .navigator li:hover {
-    font-size: 0.78vw;
+    /* font-size: 0.78vw; */
     font-weight: 700;
   }
   .langChange ul {

@@ -65,7 +65,11 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    transition: all 0.9s;
+    transform: translateX(30%);
+    opacity: 0;
   }
+
   .projectsFragmentInfo1 {
     display: flex;
     width: 16.67vw;
@@ -135,7 +139,11 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    transition: all 0.9s;
+    transform: translateX(-30%);
+    opacity: 0;
   }
+
   .projectsFragmentInfo2 {
     display: flex;
     width: 16.67vw;
@@ -206,6 +214,9 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    transition: all 0.9s;
+    transform: translateX(-30%);
+    opacity: 0;
   }
   .projectsFragmentInfo3 {
     display: flex;
@@ -274,7 +285,22 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    transition: all 0.9s;
+    transform: translateX(30%);
+    opacity: 0;
   }
+
+  
+  .animationRight {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  
+  .animationLeft {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  
   .projectsFragmentInfo4 {
     display: flex;
     position: absolute;
