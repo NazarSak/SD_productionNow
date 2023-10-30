@@ -263,6 +263,12 @@
     align-items: center;
     gap: 2.5vw;
   }
+
+  /* .animationTop {
+    transform: translateY(0);
+    opacity: 1;
+  } */
+
   .footerInfo {
     display: flex;
     flex-direction: column;
