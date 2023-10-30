@@ -3,6 +3,16 @@
     margin: 2.81vw 0;
     padding: 0;
   }
+
+  #services{
+    animation: 5s show ease;
+  }
+  
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
   #services h2 {
     margin: 0;
     padding: 0;

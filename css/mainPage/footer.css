@@ -405,10 +405,10 @@
   }
   @keyframes peopleGreen {
     0% {
-      transform: translate(0, 0);
+      transform: translate(-1vw, 0);
     }
     100% {
-      transform: translate(0, 1.95vw);
+      transform: translate(2vw, -1.95vw);
     }
   }
 
@@ -446,7 +446,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.95vw);
+      transform: translate(2vw, 1.95vw);
     }
   }
   .peopleOrange {
@@ -464,13 +464,13 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.95vw);
+      transform: translate(1.95vw, 0);
     }
   }
 
   .peopleLightPink {
     position: absolute;
-    margin-top: -50vw;
+    margin-top: -55vw;
     margin-left: 5vw;
 
     animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
@@ -483,7 +483,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.95vw);
+      transform: translate(2vw, 3.95vw);
     }
   }
 
@@ -503,7 +503,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.95vw);
+      transform: translate(-3vw, 1.95vw);
     }
   }
 
@@ -636,7 +636,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.6vw);
+      transform: translate(2vw, -3.6vw);
     }
   }
   .peopleRed {
@@ -654,7 +654,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.6vw);
+      transform: translate(4vw, 4.6vw);
     }
   }
   .peopleGreen {
@@ -673,7 +673,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.6vw);
+      transform: translate(-2vw, 6.6vw);
     }
   }
 
@@ -692,7 +692,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.6vw);
+      transform: translate(-6vw, 1.6vw);
     }
   }
   .peopleBlueLight {
@@ -711,7 +711,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.6vw);
+      transform: translate(-2vw, 5.6vw);
     }
   }
   .peopleOrange {
@@ -729,7 +729,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.6vw);
+      transform: translate(5vw, 1.6vw);
     }
   }
 
@@ -748,7 +748,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.6vw);
+      transform: translate(-4vw, 0vw);
     }
   }
 
@@ -768,7 +768,7 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(0, 1.6vw);
+      transform: translate(4vw, -3.6vw);
     }
   }
 

@@ -15,6 +15,31 @@
 
     background-color: #181818;
   }
+
+  header{
+    animation: 2s show ease;
+  }
+  
+  /* @keyframes show {
+    from { opacity: 0;top: 0px; }
+    to { opacity: 1;top: 40px; }
+  } */
+
+
+  @keyframes show {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(100px);
+        opacity:1;
+      }
+}
+
+
+
+
   header .logo {
     width: 4.38vw;
     height: 2.08vw;
@@ -50,10 +75,11 @@
   }
   .langHide li:not(.languageActive) {
     display: none;
-      }
+  }
   .langShow {
     display: flex;
     flex-direction: column;
+    transition: 800ms;
     gap: 0.83vw;
   }
   .langShow a:hover {
@@ -90,7 +116,7 @@
     margin-top: -0.9vw;
     margin-left: -1.88vw;
     transition: 0.5s;
-cursor: pointer;
+    cursor: pointer;
     width: 1.25vw;
     height: 1.25vw;
   }
@@ -133,7 +159,7 @@ cursor: pointer;
   }
   .langChange {
     margin-left: 28.65vw;
-    margin-top: 1.30vw;
+    margin-top: 1.3vw;
   }
   header .logo {
     width: 13.13vw;
@@ -163,7 +189,7 @@ cursor: pointer;
   .langShow {
     display: flex;
     flex-direction: column;
-    gap: 0;
+    gap: 0;   
   }
   .langShow a:hover {
     color: #7d3bd1;
@@ -264,7 +290,7 @@ cursor: pointer;
 @media only screen and (max-width: 767px) {
   .HamburgerMenuContainerLanguage {
     display: flex;
-    gap: 6.40vw;
+    gap: 6.4vw;
   }
   .HamburgerMenuContainerLanguage button {
     background: black;

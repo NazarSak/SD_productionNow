@@ -273,6 +273,8 @@
   }
   .mySwiper .swiper-slide {
     width: 39.06vw;
+    display: flex;
+    flex-wrap: wrap;
     opacity: 1;
   }
   .swiper-slide-active {
