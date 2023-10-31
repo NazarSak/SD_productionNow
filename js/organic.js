@@ -1,5 +1,5 @@
 function createObserver(selector, animationClass, direction) {
-	const element = document.querySelector(selector) || document.getElementById(selector)
+	const element = document.querySelector(selector)
 
 	const options = {
 		root: null,
@@ -31,7 +31,7 @@ function createObserver(selector, animationClass, direction) {
 createObserver('.header', 'animation', 'top')
 createObserver('.organicShopAnimation', 'animation', 'left')
 createObserver('.aboutProject', 'animation', 'right')
-createObserver('.mainPageAnimation', 'animation', 'left')
+createObserver('.pageAnimation', 'animation', 'left')
 createObserver('.goalsAndObjectives', 'animation', 'left')
 
 

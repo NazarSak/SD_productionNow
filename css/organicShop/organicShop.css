@@ -271,6 +271,13 @@ a:hover {
   height: 1.04vw;
 }
 
+  .pageAnimation{
+    opacity: 0;
+    transition: all 0.9s;
+    transform: translateX(-30%);
+  }
+
+
   .animationTop {
     transform: translateY(0);
     opacity: 1;
@@ -279,12 +286,6 @@ a:hover {
   .animationRight {
     transform: translateX(0%);
     opacity: 1;
-  }
-
-  .mainPageAnimation{
-    opacity: 0;
-    transition: all 0.9s;
-    transform: translateX(-30%);
   }
   
   .animationLeft {
@@ -452,6 +453,7 @@ a:hover {
   #internalPages div:nth-child(2) {
     margin-top: 13.67vw;
   }
+  
   #internalPages div {
     display: flex;
     flex-direction: column;
