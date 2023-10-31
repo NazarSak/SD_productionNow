@@ -29,9 +29,8 @@ function createObserver(selector, animationClass, direction) {
 }
 
 createObserver('.header', 'animation', 'top')
-createObserver('.organicShopAnimation', 'animation', 'left')
+createObserver('.whiteCollAnimation', 'animation', 'left')
 createObserver('.aboutProject', 'animation', 'right')
-createObserver('.mainPageAnimation', 'animation', 'left')
 createObserver('.goalsAndObjectives', 'animation', 'left')
 
 

@@ -81,6 +81,7 @@ a:hover {
   width: 100%;
 }
 
+
 #aboutProject {
   width: 61.46vw;
   margin-top: 6.82vw;
@@ -279,6 +280,12 @@ a:hover {
     transform: translateX(0%);
     opacity: 1;
   }
+
+  .mainPageAnimation{
+    opacity: 0;
+    transition: all 0.9s;
+    transform: translateX(-30%);
+  }
   
   .animationLeft {
     transform: translateX(0%);
@@ -288,6 +295,9 @@ a:hover {
   .animationOpacity {
     opacity: 1;
   }
+
+  
+
 @media screen and (max-width: 1179px) {
   main > img {
     width: auto;

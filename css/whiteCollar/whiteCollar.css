@@ -4,7 +4,7 @@
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 100px;
+  border-radius: 5.21vw;
   background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
 }
 * {
@@ -66,6 +66,11 @@ a:hover {
   margin-top: 3.33vw;
   width: 61.77vw;
 }
+.organicShopAnimation {
+  transition: all 0.9s;
+  transform: translateX(-30%);
+  opacity: 0;
+}
 #organicShop h4 {
   color: #fc7158;
   font-size: 1.25vw;
@@ -76,12 +81,20 @@ a:hover {
   width: 100%;
 }
 
+
 #aboutProject {
   width: 61.46vw;
   margin-top: 6.82vw;
   display: flex;
   align-items: center;
 }
+
+.aboutProject {
+  transition: all 0.9s;
+  transform: translateX(30%);
+  opacity: 0;
+}
+
 #aboutProject img {
  width: 20.83vw; 
 }
@@ -121,6 +134,13 @@ a:hover {
   width: 61.46vw;;
   margin: 7.29vw 0;
 }
+
+.goalsAndObjectives {
+  transition: all 0.9s;
+  transform: translateX(-30%);
+  opacity: 0;
+}
+
 #goalsAndObjectives ul {
   margin-top: 2.50vw;
   display: flex;
@@ -251,6 +271,25 @@ a:hover {
   height: 1.04vw;
 }
 
+  .animationTop {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .animationRight {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  
+  .animationLeft {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  .animationOpacity {
+    opacity: 1;
+  }
+  
 @media screen and (max-width: 1179px) {
   main > img {
     width: auto;
