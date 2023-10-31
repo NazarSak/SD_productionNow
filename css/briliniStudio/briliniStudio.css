@@ -4,7 +4,7 @@
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 100px;
+  border-radius: 5.21vw;
   background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
 }
 * {
@@ -66,6 +66,11 @@ a:hover {
   margin-top: 3.33vw;
   width: 61.77vw;
 }
+.organicShopAnimation {
+  transition: all 0.9s;
+  transform: translateX(-30%);
+  opacity: 0;
+}
 #organicShop h4 {
   color: #dfb003;
   font-size: 1.25vw;
@@ -82,6 +87,13 @@ a:hover {
   display: flex;
   align-items: center;
 }
+
+.aboutProject {
+  transition: all 0.9s;
+  transform: translateX(30%);
+  opacity: 0;
+}
+
 #aboutProject img {
   width: 20.83vw;
 }
@@ -121,6 +133,13 @@ a:hover {
   width: 61.46vw;
   margin: 7.29vw 0;
 }
+
+.goalsAndObjectives {
+  transition: all 0.9s;
+  transform: translateX(-30%);
+  opacity: 0;
+}
+
 #goalsAndObjectives ul {
   margin-top: 2.5vw;
   display: flex;
@@ -206,6 +225,7 @@ a:hover {
   border: 5px solid #595959;
   width: 26.04vw;
 }
+
 #nav {
   margin-top: 7.29vw;
   margin-bottom: 7.29vw;
@@ -249,6 +269,104 @@ a:hover {
   align-items: center;
   width: 1.04vw;
   height: 1.04vw;
+}
+
+.animationTop {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.animationRight {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.mainPageAnimation {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPageAnimationDe {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPageAnimation {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureOneAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureTwoAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureThreeAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureFourAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureFiveAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureOneAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureTwoAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureThreeAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureFourAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureFiveAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+
+.animationLeft {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.animationOpacity {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1179px) {
@@ -426,7 +544,7 @@ a:hover {
     width: 83.33vw;
     border-radius: 5.21vw;
     justify-content: space-between;
-    margin: 12.8vw 0;
+    margin-bottom: 12.8vw;
   }
 
   #nav a {
@@ -629,7 +747,7 @@ a:hover {
     width: 91.467vw;
     border-radius: 10.67vw;
     justify-content: space-between;
-    margin: 12.8vw 0;
+    margin-bottom: 12.8vw;
   }
 
   #nav a {

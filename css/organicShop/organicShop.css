@@ -50,7 +50,7 @@ h3 {
 a {
   transition: 0.7s;
   opacity: 100;
-}
+} 
 a:hover {
   opacity: 0.6;
 }
@@ -81,7 +81,6 @@ a:hover {
   width: 100%;
 }
 
-
 #aboutProject {
   width: 61.46vw;
   margin-top: 6.82vw;
@@ -96,7 +95,7 @@ a:hover {
 }
 
 #aboutProject img {
- width: 20.83vw; 
+  width: 20.83vw;
 }
 #aboutProject div {
   display: flex;
@@ -104,12 +103,12 @@ a:hover {
   justify-content: center;
   align-items: start;
   text-align: start;
-  gap: 2.50vw;
+  gap: 2.5vw;
 }
 .aboutProjectBr {
   display: block;
   margin: 0 5.73vw;
-  width: 0.10vw;
+  width: 0.1vw;
   height: 10.42vw;
   background: radial-gradient(
     4979852.87% 58.76% at 50% 49.67%,
@@ -131,7 +130,7 @@ a:hover {
 }
 
 #goalsAndObjectives {
-  width: 61.46vw;;
+  width: 61.46vw;
   margin: 7.29vw 0;
 }
 
@@ -142,7 +141,7 @@ a:hover {
 }
 
 #goalsAndObjectives ul {
-  margin-top: 2.50vw;
+  margin-top: 2.5vw;
   display: flex;
   gap: 1.46vw;
 }
@@ -251,7 +250,7 @@ a:hover {
 }
 
 #nav a:hover {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 #nav div {
@@ -271,32 +270,103 @@ a:hover {
   height: 1.04vw;
 }
 
-  .animationTop {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  
-  .animationRight {
-    transform: translateX(0%);
-    opacity: 1;
-  }
+.animationTop {
+  transform: translateY(0);
+  opacity: 1;
+}
 
-  .mainPageAnimation{
-    opacity: 0;
-    transition: all 0.9s;
-    transform: translateX(-30%);
-  }
-  
-  .animationLeft {
-    transform: translateX(0%);
-    opacity: 1;
-  }
+.animationRight {
+  transform: translateX(0%);
+  opacity: 1;
+}
 
-  .animationOpacity {
-    opacity: 1;
-  }
+.mainPageAnimation {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
 
-  
+.InternalPageAnimationDe {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPageAnimation {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureOneAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureTwoAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureThreeAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureFourAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureFiveAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureOneAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureTwoAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureThreeAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureFourAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureFiveAnimationDE{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+
+.animationLeft {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.animationOpacity {
+  opacity: 1;
+}
 
 @media screen and (max-width: 1179px) {
   main > img {
@@ -497,8 +567,8 @@ a:hover {
     height: 5.333vw;
   }
   #nav div img {
-    width: 2.60vw;
-    height: 2.60vw;
+    width: 2.6vw;
+    height: 2.6vw;
   }
 }
 
@@ -700,7 +770,7 @@ a:hover {
     height: 5.333vw;
   }
   #nav div img {
-width: 5.33vw;
-height: 5.33vw;
+    width: 5.33vw;
+    height: 5.33vw;
   }
 }
