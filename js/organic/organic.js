@@ -39,8 +39,6 @@ createObserver('.InternalPagePictureTwoAnimation', 'animation', 'left')
 createObserver('.InternalPagePictureThreeAnimation', 'animation', 'left')
 createObserver('.InternalPagePictureFourAnimation', 'animation', 'left')
 createObserver('.InternalPagePictureFiveAnimation', 'animation', 'left')
-// DE
-
 
 
 
