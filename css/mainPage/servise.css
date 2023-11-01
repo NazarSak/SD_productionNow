@@ -193,7 +193,7 @@
   }
   .servicesFragmentAnimation2 {
     opacity: 0;
-    transform: translateX(50%);
+    transform: translateX(80%);
     transition: all 0.9s;
   }
   .servicesFragmentAnimation3 {
