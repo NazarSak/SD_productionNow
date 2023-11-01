@@ -18,6 +18,12 @@
   outline: none;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+  * {
+    overflow: auto;
+  }
+}
+
 button {
   cursor: pointer;
 }
@@ -55,8 +61,8 @@ body {
   content: url("../img/email/ButtonCloseHover.svg");
 }
 
-.buttonCloseContainer{
-transition: 0.5s;
+.buttonCloseContainer {
+  transition: 0.5s;
 }
 
 .emailForm {
@@ -178,7 +184,7 @@ input {
   }
   .emailForm {
     width: 100vw;
-    margin-top: 10.42vw; 
+    margin-top: 10.42vw;
     height: 99.67vw;
   }
   .buttonClose {
@@ -186,8 +192,8 @@ input {
     margin-left: 79.43vw;
     margin-top: 29.95vw;
     display: block;
-    width: 3.13vw;
-    height: 3.13vw;
+    width: 12.13vw;
+    height: 9.13vw;
   }
   .buttonClose::after {
     content: url("../img/email/ButtonClose.svg");
@@ -202,7 +208,7 @@ input {
     justify-content: center;
     align-items: center;
     font-size: 2.08vw;
-    gap: 1.30vw;
+    gap: 1.3vw;
     font-weight: 700;
     border-radius: 5.08vw;
     background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
