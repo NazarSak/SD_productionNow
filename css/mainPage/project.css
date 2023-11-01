@@ -408,10 +408,13 @@
     overflow: hidden;
     display: flex;
     height: 46.35vw;
-    background: var(--grey-A, #1C1C1C);
     border-radius: 2.60vw;
     justify-content: space-between;
+       transition: all 0.9s;
+    opacity: 0;
+    transform: translateX(-30%);
   }
+
   .projectsFragmentInfo1 {
     display: flex;
     width: 23.7vw;
@@ -479,6 +482,9 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+           transition: all 0.9s;
+    opacity: 0;
+    transform: translateX(30%);
   }
   .projectsFragmentInfo2 {
     display: flex;
@@ -546,6 +552,9 @@
     background: var(--grey-A, #1C1C1C);
     height: 46.35vw;
     overflow: hidden;
+    transition: all 0.9s;
+    opacity: 0;
+    transform: translateX(-30%);
 
     display: flex;
     justify-content: space-between;
@@ -620,6 +629,9 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+           transition: all 0.9s;
+    opacity: 0;
+    transform: translateX(30%);
   }
   .projectsFragmentInfo4 {
     display: flex;
@@ -685,6 +697,11 @@
     border-top-left-radius: 1.04vw;
     background-image: url(../../img/page4-1.png);
     background-size: cover;
+  }
+
+  .animationLeft {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 @media only screen and (max-width: 767px) {
