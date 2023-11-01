@@ -135,7 +135,9 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-
+    transition: all 0.9s;
+    transform: translateY(-30%);
+    opacity: 0;
     border-radius: 2.6vw;
     justify-content: space-between;
 
@@ -144,6 +146,10 @@
   .langChange {
     margin-left: 28.65vw;
     margin-top: 1.3vw;
+  }
+  .animationTop {
+    opacity: 1;
+    transform: translateY(0);
   }
   header .logo {
     width: 13.13vw;

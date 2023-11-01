@@ -321,19 +321,19 @@ a:hover {
 .InternalPagePictureThreeAnimation{
   opacity: 0;
   transition: all 0.9s;
-  transform: translateX(70%);
+  transform: translateX(30%);
 }
 
 .InternalPagePictureFourAnimation{
   opacity: 0;
   transition: all 0.9s;
-  transform: translateX(70%);
+  transform: translateX(30%);
 }
 
 .InternalPagePictureFiveAnimation{
   opacity: 0;
   transition: all 0.9s;
-  transform: translateX(70%);
+  transform: translateX(30%);
 }
 
 .InternalPagePictureOneAnimationDE{
@@ -351,19 +351,19 @@ a:hover {
 .InternalPagePictureThreeAnimationDE{
   opacity: 0;
   transition: all 0.9s;
-  transform: translateX(70%);
+  transform: translateX(30%);
 }
 
 .InternalPagePictureFourAnimationDE{
   opacity: 0;
   transition: all 0.9s;
-  transform: translateX(70%);
+  transform: translateX(30%);
 }
 
 .InternalPagePictureFiveAnimationDE{
   opacity: 0;
   transition: all 0.9s;
-  transform: translateX(70%);
+  transform: translateX(30%);
 }
 
 .PictureOneAnimation{
