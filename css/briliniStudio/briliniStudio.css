@@ -287,6 +287,12 @@ a:hover {
   transform: translateX(-30%);
 }
 
+.imgAnimation {
+  opacity: 0;
+  transform: translateY(30%);
+  transition: ease-in-out 0.9s;
+}
+
 .InternalPageAnimationDe {
   opacity: 0;
   transition: all 0.9s;
@@ -299,66 +305,77 @@ a:hover {
   transform: translateX(-30%);
 }
 
-.InternalPagePictureOneAnimation{
+.InternalPagePictureOneAnimation {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(-30%);
 }
 
-.InternalPagePictureTwoAnimation{
+.InternalPagePictureTwoAnimation {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(-30%);
 }
 
-.InternalPagePictureThreeAnimation{
+.InternalPagePictureThreeAnimation {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(70%);
 }
 
-.InternalPagePictureFourAnimation{
+.InternalPagePictureFourAnimation {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(70%);
 }
 
-.InternalPagePictureFiveAnimation{
+.InternalPagePictureFiveAnimation {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(70%);
 }
 
-.InternalPagePictureOneAnimationDE{
+.InternalPagePictureOneAnimationDE {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(-30%);
 }
 
-.InternalPagePictureTwoAnimationDE{
+.InternalPagePictureTwoAnimationDE {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(-30%);
 }
 
-.InternalPagePictureThreeAnimationDE{
+.InternalPagePictureThreeAnimationDE {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(70%);
 }
 
-.InternalPagePictureFourAnimationDE{
+.InternalPagePictureFourAnimationDE {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(70%);
 }
 
-.InternalPagePictureFiveAnimationDE{
+.InternalPagePictureFiveAnimationDE {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(70%);
 }
 
+.PictureOneAnimation {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.PictureTwoAnimation {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
 
 .animationLeft {
   transform: translateX(0%);

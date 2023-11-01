@@ -4,7 +4,7 @@ function createObserver(selector, animationClass, direction) {
 	const options = {
 		root: null,
 		rootMargin: '0px',
-		threshold: 0.5,
+		threshold: 0,
 	}
 
 	const callback = (entries, observer) => {
@@ -28,6 +28,13 @@ function createObserver(selector, animationClass, direction) {
 	observer.observe(element)
 }
 
-createObserver('.PictureOneAnimation', 'animation', 'left')
-createObserver('.PictureTwoAnimation', 'animation', 'left')
-
+createObserver('.header', 'animation', 'top')
+createObserver('.organicShopAnimation', 'animation', 'left')
+createObserver('.aboutProject', 'animation', 'right')
+createObserver('.goalsAndObjectives', 'animation', 'left')
+createObserver('.InternalPageAnimation', 'animation', 'left')
+createObserver('.InternalPagePictureOneAnimation', 'animation', 'left')
+createObserver('.InternalPagePictureTwoAnimation', 'animation', 'left')
+createObserver('.InternalPagePictureThreeAnimation', 'animation', 'left')
+createObserver('.InternalPagePictureFourAnimation', 'animation', 'left')
+createObserver('.InternalPagePictureFiveAnimation', 'animation', 'left')
