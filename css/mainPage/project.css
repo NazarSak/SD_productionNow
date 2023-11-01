@@ -18,6 +18,16 @@
     animation: 2s show ease;
   }
 
+  .heroSection {
+    transition: all 0.9s;
+    opacity: 0;
+  }
+
+  .servicesSection {
+    transition: all 0.9s;
+    opacity: 0;
+  }
+
   @keyframes show {
     0% {
       transform: translateX(0);
@@ -375,6 +385,12 @@
     font-style: normal;
     font-weight: 700;
   }
+
+  .servicesSectionTablet {
+    transition: all 0.9s;
+    opacity: 0;
+  }
+
   .projectsCards {
     display: flex;
     flex-direction: column;
@@ -771,6 +787,7 @@
     display: flex;
     flex-direction: column;
     transition: all 0.9s;
+    gap: 10.67vw;
     transform: translateX(-30%);
     opacity: 0;
   }
