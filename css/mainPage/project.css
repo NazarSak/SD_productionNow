@@ -367,6 +367,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
   }
   .projectsH2 {
     width: 64.32vw;
