@@ -179,10 +179,27 @@
     margin: 2.81vw 0;
     padding: 0;
   }
+  
   .serviceAnim {
     transition: all 0.9s;
     opacity: 0;
     transform: translateX(-30%);
+  }
+
+  .servicesFragmentAnimation1 {
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 0.9s;
+  }
+  .servicesFragmentAnimation2 {
+    opacity: 0;
+    transform: translateX(50%);
+    transition: all 0.9s;
+  }
+  .servicesFragmentAnimation3 {
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 0.9s;
   }
   #services h2 {
     margin: 0;

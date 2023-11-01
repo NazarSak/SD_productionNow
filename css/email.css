@@ -151,6 +151,10 @@ input {
 }
 
 @media only screen and (max-width: 1179px) {
+  body {
+
+    overflow: auto;
+  }
   header {
     display: flex;
   }
@@ -189,8 +193,8 @@ input {
   }
   .buttonClose {
     position: absolute;
-    margin-left: 79.43vw;
-    margin-top: 29.95vw;
+    margin-left: 39.43vw;
+    margin-top: 0.95vw;
     display: block;
     width: 12.13vw;
     height: 9.13vw;
@@ -260,7 +264,7 @@ input {
   }
   .buttonClose {
     position: absolute;
-    margin-left: 70vw;
+    margin-left: 30vw;
     margin-top: 8.07vw;
     display: block;
     width: 6.4vw;
