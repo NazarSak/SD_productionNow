@@ -28,10 +28,7 @@ function createObserver(selector, animationClass, direction) {
 	observer.observe(element)
 }
 
-// createObserver('.goalsAndObjectivesWC', 'animation', 'left')
-createObserver('.InternalPageAnimation', 'animation', 'left')
-createObserver('.InternalPagePictureOneAnimationWc', 'animation', 'left')
-createObserver('.InternalPagePictureTwoAnimationwc', 'animation', 'left')
-createObserver('.InternalPagePictureThreeAnimationwc', 'animation', 'left')
-createObserver('.InternalPagePictureFourAnimationwc', 'animation', 'left')
-createObserver('.InternalPagePictureFiveAnimationwc', 'animation', 'left')
+createObserver('.PictureOneAnimation', 'animation', 'left')
+createObserver('.PictureTwoAnimation', 'animation', 'left')
+createObserver('.PictureThreeAnimation', 'animation', 'left')
+

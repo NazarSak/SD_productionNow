@@ -275,6 +275,8 @@ a:hover {
   opacity: 1;
 }
 
+
+
 .animationRight {
   transform: translateX(0%);
   opacity: 1;
@@ -358,6 +360,23 @@ a:hover {
   transform: translateX(70%);
 }
 
+.PictureOneAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.PictureTwoAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.PictureThreeAnimation{
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
 
 .animationLeft {
   transform: translateX(0%);
