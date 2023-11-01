@@ -179,6 +179,11 @@
     margin: 2.81vw 0;
     padding: 0;
   }
+  .serviceAnim {
+    transition: all 0.9s;
+    opacity: 0;
+    transform: translateX(-30%);
+  }
   #services h2 {
     margin: 0;
     padding: 0;
@@ -217,7 +222,6 @@
     border: 0.05vw solid transparent;
     background: #181818;
   }
-
   .servicesFragment:hover {
     border: 0.05vw solid #bd00ff;
   }
@@ -362,6 +366,10 @@
     gap: 7vw;
     display: flex;
     align-items: baseline;
+  }
+  .animationLeft {
+    opacity: 1;
+    transform: translateX(0%);
   }
 }
 @media only screen and (max-width: 767px) {
