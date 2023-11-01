@@ -29,8 +29,8 @@ function createObserver(selector, animationClass, direction) {
   } 
   
   
-  createObserver('.projectsFragment11', 'animation', 'right')
+  createObserver('.projectsFragment11', 'animation', 'left')
   createObserver('.projectsFragment22', 'animation', 'left')
   createObserver('.projectsFragment33', 'animation', 'left')
-  createObserver('.projectsFragment44', 'animation', 'right')
+  createObserver('.projectsFragment44', 'animation', 'left')
   
