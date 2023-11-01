@@ -4,7 +4,7 @@ function createObserver(selector, animationClass, direction) {
       const options = {
           root: null,
           rootMargin: '0px',
-          threshold: 0.5,
+          threshold: 0.1,
       }
   
       const callback = (entries, observer) => {
@@ -33,4 +33,9 @@ function createObserver(selector, animationClass, direction) {
   createObserver('.projectsFragment22', 'animation', 'left')
   createObserver('.projectsFragment33', 'animation', 'left')
   createObserver('.projectsFragment44', 'animation', 'left')
-  
+  createObserver('.servicesFragmentAnimation1', 'animation', 'left')
+  createObserver('.servicesFragmentAnimation2', 'animation', 'left')
+  createObserver('.servicesFragmentAnimation3', 'animation', 'left')
+  createObserver('.servicesFragmentAnimationMobaile1', 'animation', 'left')
+  createObserver('.servicesFragmentAnimationMobaile2', 'animation', 'left')
+  createObserver('.servicesFragmentAnimationMobaile3', 'animation', 'left')

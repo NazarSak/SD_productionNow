@@ -227,7 +227,7 @@
     align-items: center;
     background-color: #000;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
   }
 
   .HamburgerMenu {
@@ -246,7 +246,7 @@
   header .show .HamburgerMenuNav {
     top: 0;
     left: 0;
-    transition: 800ms;
+    transition: 1s;
   }
   .HamburgerMenuNav img {
     position: absolute;
