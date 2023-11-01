@@ -429,6 +429,7 @@ a:hover {
     width: auto;
     margin-top: 15.63vw;
     padding: 0;
+    height: 39.97vw;
     gap: 6.4vw;
     flex-direction: row;
   }
@@ -623,12 +624,13 @@ a:hover {
     margin-top: 13vw;
     padding: 0 4vw;
   }
-  .organicShopImage {
+  .organicShopImage { 
     height: 36vw;
     object-fit: cover;
   }
   #aboutProject {
     width: 100vw;
+    height: 115.20vw;
     margin-top: 18vw;
     padding: 0;
     gap: 6.4vw;

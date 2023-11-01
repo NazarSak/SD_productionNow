@@ -50,7 +50,7 @@ h3 {
 a {
   transition: 0.7s;
   opacity: 100;
-} 
+}
 a:hover {
   opacity: 0.6;
 }
@@ -304,61 +304,61 @@ a:hover {
   transform: translateX(-30%);
 }
 
-.InternalPagePictureOneAnimation{
+.InternalPagePictureOneAnimation {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(-30%);
 }
 
-.InternalPagePictureTwoAnimation{
+.InternalPagePictureTwoAnimation {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(-30%);
 }
 
-.InternalPagePictureThreeAnimation{
-  opacity: 0;
-  transition: all 0.9s;
-  transform: translateX(70%);
-}
-
-.InternalPagePictureFourAnimation{
-  opacity: 0;
-  transition: all 0.9s;
-  transform: translateX(70%);
-}
-
-.InternalPagePictureFiveAnimation{
-  opacity: 0;
-  transition: all 0.9s;
-  transform: translateX(70%);
-}
-
-.InternalPagePictureOneAnimationDE{
+.InternalPagePictureThreeAnimation {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(-30%);
 }
 
-.InternalPagePictureTwoAnimationDE{
+.InternalPagePictureFourAnimation {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureFiveAnimation {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(70%);
+}
+
+.InternalPagePictureOneAnimationDE {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(-30%);
 }
 
-.InternalPagePictureThreeAnimationDE{
+.InternalPagePictureTwoAnimationDE {
+  opacity: 0;
+  transition: all 0.9s;
+  transform: translateX(-30%);
+}
+
+.InternalPagePictureThreeAnimationDE {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(70%);
 }
 
-.InternalPagePictureFourAnimationDE{
+.InternalPagePictureFourAnimationDE {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(70%);
 }
 
-.InternalPagePictureFiveAnimationDE{
+.InternalPagePictureFiveAnimationDE {
   opacity: 0;
   transition: all 0.9s;
   transform: translateX(70%);
@@ -375,7 +375,6 @@ a:hover {
   transition: all 0.9s;
   transform: translateX(-30%);
 }
-
 
 .animationLeft {
   transform: translateX(0%);
@@ -428,6 +427,7 @@ a:hover {
     padding: 0;
     gap: 6.4vw;
     flex-direction: row;
+    height: 39.97vw;
   }
   #aboutProject img {
     width: 37.11vw;
@@ -626,6 +626,7 @@ a:hover {
   }
   #aboutProject {
     width: 100vw;
+    height: 102.93vw;
     margin-top: 18vw;
     padding: 0;
     gap: 6.4vw;

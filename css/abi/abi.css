@@ -392,6 +392,7 @@ a:hover {
     padding: 0;
     gap: 6.4vw;
     flex-direction: row;
+    height: 39.97vw;
   }
   #aboutProject img {
     width: 37.11vw;
@@ -590,13 +591,14 @@ a:hover {
   }
   #aboutProject {
     width: 100vw;
+    height: 130.53vw;
     margin-top: 18vw;
     padding: 0;
     gap: 6.4vw;
     flex-direction: column-reverse;
   }
   #aboutProject img {
-    width: 76vw;
+    width: 18.40vw;
   }
   #aboutProject div {
     flex-wrap: wrap;
