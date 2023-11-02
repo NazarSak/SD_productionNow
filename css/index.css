@@ -22,7 +22,44 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
+
+.english {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 4vw;
+  border-radius: 10vw;
+  background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  margin-bottom: 2vw;
+  transition: all 0.5s;
+}
+.deutsch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 4vw;
+  border-radius: 10vw;
+  background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  transition: all 0.5s;
+}
+.english:hover {
+  transform: translateY(-0.5vw);
+  opacity: 0.6;
+  width: 25.5vw;
+  height: 4.5vw;
+}
+.deutsch:hover {
+  transform: translateY(-0.5vw);
+  opacity: 0.6;
+  width: 25.5vw;
+  height: 4.5vw;
+}
+
 .borderText {
   font-weight: 800;
   font-family: 'Poppins', sans-serif;
