@@ -626,6 +626,26 @@ main {
 
 
 @media only screen and (max-width: 1179px) {
+.english {
+  width: 35vw;
+  height: 5vw;
+}
+.deutsch {
+  width: 35vw;
+  height: 5vw;
+}
+.english:hover {
+  transform: translateY(-0.5vw);
+  opacity: 0.6;
+  width: 35.5vw;
+  height: 5.5vw;
+}
+.deutsch:hover {
+  transform: translateY(-0.5vw);
+  opacity: 0.6;
+  width: 35.5vw;
+  height: 5.5vw;
+}
   main img {
     width: 100vw;
   }
@@ -1154,6 +1174,22 @@ main {
 }
 
 @media only screen and (max-width: 767px) {
+  .english {
+  width: 45vw;
+  height: 6vw;
+}
+.deutsch {
+  width: 45vw;
+  height: 6vw;
+}
+.english:hover {
+  width: 45.5vw;
+  height: 6.5vw;
+}
+.deutsch:hover {
+  width: 45.5vw;
+  height: 6.5vw;
+}
   main img {
     /* display: none; */
     width: 100vw;
@@ -1728,4 +1764,23 @@ main {
     content: url('../img/leftPurple.svg');
     margin-left: 33vw;
   }
+}
+
+@media only screen and (max-width: 470px) {
+  .english {
+  width: 65vw;
+  height: 9vw;
+}
+.deutsch {
+  width: 65vw;
+  height: 9vw;
+}
+.english:hover {
+  width: 65.5vw;
+  height: 9.5vw;
+}
+.deutsch:hover {
+  width: 65.5vw;
+  height: 9.5vw;
+}
 }
