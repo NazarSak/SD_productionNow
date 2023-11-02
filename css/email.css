@@ -264,7 +264,7 @@ input {
   }
   .buttonClose {
     position: absolute;
-    margin-left: 80vw;
+    margin-right: 10vw;
     margin-top: 8.07vw;
     display: block;
     width: 6.4vw;
