@@ -244,14 +244,17 @@
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     gap: 1vw;
-    width: 29.51vw;
+    width: 23vw;
     font-size: 0.83vw;
     list-style: none;
   }
   footer .navigator li {
     text-align: center;
   }
-  footer .navigator li:hover {
+  footer .navigator li a{
+   font-size: 0.87vw; 
+  }
+  footer .navigator li a:hover {
     font-weight: 700;
   }
 
@@ -283,7 +286,7 @@
   .mediaInfo li {
     color: #fff;
     opacity: 0.65;
-    font-size: 16px;
+    font-size: 0.63vw;
     font-style: normal;
     font-weight: 400;
   }
