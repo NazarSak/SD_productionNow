@@ -4,7 +4,7 @@ formData.addEventListener('submit', async (event) => {
   event.preventDefault();
   const userData = await Object.fromEntries(new FormData(formData));
 
-  await fetch('http://iasasc.centralindia.cloudapp.azure.com:8088/api/contact-us', {
+  await fetch('http://iasasc.centralindia.cloudapp.azure.com:8099/api/contact-us', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
