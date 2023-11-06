@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/email.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
     <title>Email page</title>
   </head>
   <body>
@@ -103,29 +104,25 @@
         emailInput.value = "";
         messageInput.value = "";
         const notyf = new Notyf({
-  duration: 1000,
-  position: {
-    x: 'right',
-    y: 'top',
-  },
-  types: [
-    {
-      type: 'warning',
-      background: 'orange',
-      icon: {
-        className: 'material-icons',
-        tagName: 'i',
-        text: 'warning'
-      }
-    },
-    {
-      type: 'error',
-      background: 'indianred',
-      duration: 2000,
-      dismissible: true
-    }
-  ]
-});
+        duration: 2000,
+        types: [
+          {
+            type: 'warning',
+            background: 'orange',
+            icon: {
+              className: 'material-icons',
+              tagName: 'i',
+              text: 'warning'
+            }
+          },
+          {
+            type: 'error',
+            background: 'indianred',
+            duration: 2000,
+            dismissible: true
+          }
+        ]
+      });
         notyf.success('Your message has been send!');
       });
     </script>
