@@ -132,6 +132,7 @@ input {
 .message:focus {
   border: 2px solid #ffffff;
 }
+
 .button {
   display: flex;
   height: 2.6vw;
@@ -148,11 +149,25 @@ input {
   line-height: normal;
   text-transform: uppercase;
   font-family: Montserrat;
+  animation: 2s animationButtonShows ease;
+  transition: 0.9s all;
+}
+
+/* @keyframes animationButtonShows {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+
+.button:hover {
+  opacity: 0.6;
 }
 
 @media only screen and (max-width: 1179px) {
   body {
-
     overflow: auto;
   }
   header {
