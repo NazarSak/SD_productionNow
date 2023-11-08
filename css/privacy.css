@@ -63,7 +63,7 @@ a:hover {
   margin-bottom: 1.25vw;
 }
 #organicShop {
-  margin-top: 3.33vw;
+  margin-top: 5.21vw;
   width: 61.77vw;
 }
 .organicShopAnimation {
@@ -76,23 +76,38 @@ a:hover {
 }
 
 .privacyText {
+  display: flex;
+  flex-direction: column;
   gap: 24px;
+}
+
+.privacyText li {
+  display: flex;
 }
 
 .privacyText li p {
   font-family: Montserrat;
+  color: var(--grey-C, #cfcfcf);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 160%; 
+  line-height: 160%;
   letter-spacing: -0.4px;
 }
 
 .privacyText li p span {
-  color: var(
-    --purple-linear,
-    linear-gradient(90deg, #bd00ff -1.03%, #3604c3 98.22%)
-  );
+  background: linear-gradient(90deg, #bd00ff -1.03%, #3604c3 98.22%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lineBeforeLi {
+  width: 15px;
+  height: 1px;
+  margin-top: 10px;
+  margin-right: 8px;
+  background: #cfcfcf;
 }
 
 #aboutProject {
