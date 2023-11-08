@@ -36,6 +36,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 7.81vw;
 }
 h3 {
   color: #fff;
@@ -78,7 +79,7 @@ a:hover {
 .privacyText {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 1.25vw;
 }
 
 .privacyText li {
@@ -88,25 +89,32 @@ a:hover {
 .privacyText li p {
   font-family: Montserrat;
   color: var(--grey-C, #cfcfcf);
-  font-size: 16px;
+  font-size: 0.83vw;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 160%;
   letter-spacing: -0.4px;
 }
 
 .privacyText li p span {
-  background: linear-gradient(90deg, #bd00ff -1.03%, #3604c3 98.22%);
+  background: linear-gradient(90deg, #BD00FF 40.17%, #3604C3 80.97%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.4px;
+  
 }
 
 .lineBeforeLi {
   width: 15px;
   height: 1px;
-  margin-top: 10px;
-  margin-right: 8px;
+  margin-top: 0.57vw;
+  margin-right: 0.82vw;
   background: #cfcfcf;
 }
 
