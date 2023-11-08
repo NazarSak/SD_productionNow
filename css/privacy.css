@@ -37,12 +37,25 @@ main {
   align-items: center;
   justify-content: center;
   padding-bottom: 7.81vw;
+  transition: all 0.9s;
+  animation-name: animationName;
+  animation-duration: 2s;
 }
+
+@keyframes animationName {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 h3 {
   color: #fff;
   text-align: start;
   font-family: Montserrat;
-  font-size: 3.33vw;
+  font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -84,12 +97,13 @@ a:hover {
 
 .privacyText li {
   display: flex;
+  align-items: center;
 }
 
 .privacyText li p {
   font-family: Montserrat;
   color: var(--grey-C, #cfcfcf);
-  font-size: 0.83vw;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -113,7 +127,6 @@ a:hover {
 .lineBeforeLi {
   width: 15px;
   height: 1px;
-  margin-top: 0.57vw;
   margin-right: 0.82vw;
   background: #cfcfcf;
 }
@@ -383,6 +396,9 @@ a:hover {
 }
 
 @media screen and (max-width: 1179px) {
+  /* .privacyText li p {
+    font-size: 14px;
+  } */
   main > img {
     width: auto;
   }
@@ -399,9 +415,9 @@ a:hover {
   }
   #organicShop h3 {
     font-weight: 700;
-    font-size: 8.33vw;
+    font-size: 40px;
     width: auto;
-    margin-bottom: 6.25vw;
+    margin-top:40px;
   }
   #organicShop h4 {
     /* width: 19.4vw; */
@@ -572,7 +588,7 @@ a:hover {
   }
   #organicShop h3 {
     font-weight: 700;
-    font-size: 9vw;
+    font-size: 40px;
     width: 66.4vw;
   }
   #organicShop h4 {
@@ -582,7 +598,6 @@ a:hover {
   #organicShop {
     margin-top: 0;
     width: 91.467vw;
-    margin-top: 13vw;
     padding: 0 4vw;
   }
   .organicShopImage {
@@ -726,3 +741,4 @@ a:hover {
     padding: 0 4.267vw;
   }
 }
+
