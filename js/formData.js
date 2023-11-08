@@ -38,12 +38,3 @@ formData.addEventListener("click", () => {
     InputEmailText.style.border = "2px solid red";
   }
 });
-
-// form.addEventListener("submit", function (event) {
-//   event.preventDefault();
-
-//   nameInput.value = "";
-//   emailInput.value = "";
-//   messageInput.value = "";
-  
-// });
