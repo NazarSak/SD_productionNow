@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/email.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
     <title>Email page</title>
   </head>
   <body>
@@ -79,6 +80,41 @@
     <script src="../js/language.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
     <script src="../js/SmoothScroll.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script>
+      const form = document.querySelector(".email");
+      const nameInput = form.querySelector('[name="name"]');
+      const emailInput = form.querySelector('[name="email"]');
+      const messageInput = form.querySelector('[name="message"]');
 
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        nameInput.value = "";
+        emailInput.value = "";
+        messageInput.value = "";
+        const notyf = new Notyf({
+        duration: 2000,
+        types: [
+          {
+            type: 'warning',
+            background: 'orange',
+            icon: {
+              className: 'material-icons',
+              tagName: 'i',
+              text: 'warning'
+            }
+          },
+          {
+            type: 'error',
+            background: 'indianred',
+            duration: 2000,
+            dismissible: true
+          }
+        ]
+      });
+        notyf.success('Your message has been send!');
+      });
+    </script>
   </body>
 </html>
