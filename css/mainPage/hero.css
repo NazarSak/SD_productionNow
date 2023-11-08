@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1180px) {
   a {
-    transition: 0.7s;
+    transition: all 0.3s;
     opacity: 100;
   }
   a:hover {
