@@ -101,7 +101,7 @@ a:hover {
 .privacyText li p {
   font-family: Montserrat;
   color: var(--grey-C, #cfcfcf);
-  font-size: 16px;
+  font-size: 0.83vw;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -109,23 +109,19 @@ a:hover {
 }
 
 .privacyText li p span {
-  background: linear-gradient(90deg, #BD00FF 40.17%, #3604C3 80.97%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #9a00d0;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 0.83vw;
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
   letter-spacing: -0.4px;
-  
 }
 
 .lineBeforeLi {
-  width: 12px;
+  width: 15px;
   height: 1px;
-  margin-top: 36.5px;
+  margin-top: 1.88vw;
   margin-right: 0.82vw;
   background: #cfcfcf;
   position: absolute;
@@ -175,10 +171,13 @@ a:hover {
 .return_header:hover .go_home {
   background: url('../img/Vector\ 10.svg');
   transform: translateX(-3px); 
+  
+.lineUnder {
+  text-decoration-line: underline;
 }
 
 .before_text {
-  margin: 24px 0 0 20px;
+  margin: 1.25vw 0 0 1.34vw;
 }
 
 #aboutProject {
@@ -446,9 +445,22 @@ a:hover {
 }
 
 @media screen and (max-width: 1179px) {
-  /* .privacyText li p {
-    font-size: 14px;
-  } */
+  .privacyText li p {
+    font-size: 2.08vw;
+  }
+
+  .privacyText li p span {
+    font-size: 2.08vw;
+  }
+
+  .lineBeforeLi {
+    margin-top: 2.88vw;
+  }
+
+  .before_text {
+    margin: 1.25vw 0 0 2.34vw;
+  }
+
   main > img {
     width: auto;
   }
@@ -467,7 +479,7 @@ a:hover {
     font-weight: 700;
     font-size: 40px;
     width: auto;
-    margin-top:40px;
+    margin-top: 40px;
   }
   #organicShop h4 {
     /* width: 19.4vw; */
@@ -622,6 +634,22 @@ a:hover {
 }
 
 @media screen and (max-width: 767px) {
+  .privacyText li p {
+    font-size: 4.27vw;
+  }
+
+  .privacyText li p span {
+    font-size: 4.27vw;
+  }
+
+  .lineBeforeLi {
+    margin-top: 4.4vw;
+  }
+
+  .before_text {
+    margin: 1.25vw 0 0 4.34vw;
+  }
+
   main > img {
     width: 100vw;
   }
@@ -791,4 +819,3 @@ a:hover {
     padding: 0 4.267vw;
   }
 }
-
