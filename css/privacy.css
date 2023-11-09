@@ -96,18 +96,34 @@ a:hover {
   letter-spacing: -0.4px;
 }
 
-.privacyText li p span {
-  background: linear-gradient(90deg, #BD00FF 40.17%, #3604C3 80.97%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.boldSpan {
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
+  line-height: 160%; 
+  letter-spacing: -0.4px;
+}
+
+.privacyText li p span {
+  color: var(--grey-C, #CFCFCF);
+  font-family: Montserrat;
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 500;
   line-height: 160%;
   letter-spacing: -0.4px;
+}
+
+.colorSpan{
+  background: linear-gradient(90deg, #bd00ff 40.17%, #3604c3 80.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
   
+.underLine{
+  text-decoration-line: underline;
 }
 
 .lineBeforeLi {
