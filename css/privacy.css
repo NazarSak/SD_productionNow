@@ -28,7 +28,6 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-text-fill-color: #000;
   -webkit-text-stroke: 1.5px #fff;
-  letter-spacing: 2.5px;
 }
 main {
   width: 100%;
@@ -126,14 +125,14 @@ a:hover {
 .lineBeforeLi {
   width: 12px;
   height: 1px;
-  margin-top: 12.5px;
+  margin-top: 36.5px;
   margin-right: 0.82vw;
   background: #cfcfcf;
   position: absolute;
 }
 
 .before_text {
-  margin-left: 20px;
+  margin: 24px 0 24px 20px;
 }
 
 #aboutProject {
@@ -594,7 +593,7 @@ a:hover {
   #organicShop h3 {
     font-weight: 700;
     font-size: 40px;
-    width: 66.4vw;
+    max-width: 360px;
   }
   #organicShop h4 {
     width: 66.4vw;
