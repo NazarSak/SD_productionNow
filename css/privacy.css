@@ -131,6 +131,52 @@ a:hover {
   position: absolute;
 }
 
+.return_header {
+  margin-right: auto;
+}
+
+.return_header a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--grey-C, #CFCFCF);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.4px;
+}
+
+.return_header p {
+  transition: 0.2s;
+}
+
+.return_header p:hover,
+.return_header:hover p {
+  color: #bd00ff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.go_home {
+  width: 15px;
+  height: 10px;
+  background: url('../img/Vector\ 9.svg');
+}
+
+.return_header .go_home {
+  transition: all 0.2s;
+}
+
+.return_header:hover .go_home {
+  background: url('../img/Vector\ 10.svg');
+  transform: translateX(-3px); 
+}
+
 .before_text {
   margin: 24px 0 0 20px;
 }
