@@ -119,7 +119,7 @@ a:hover {
 }
 
 .lineBeforeLi {
-  width: 12px;
+  width: 15px;
   height: 1px;
   margin-top: 1.88vw;
   margin-right: 0.82vw;
@@ -400,9 +400,22 @@ a:hover {
 }
 
 @media screen and (max-width: 1179px) {
-  /* .privacyText li p {
-    font-size: 14px;
-  } */
+  .privacyText li p {
+    font-size: 2.08vw;
+  }
+
+  .privacyText li p span {
+    font-size: 2.08vw;
+  }
+
+  .lineBeforeLi {
+    margin-top: 2.88vw;
+  }
+
+  .before_text {
+    margin: 1.25vw 0 0 2.34vw;
+  }
+
   main > img {
     width: auto;
   }
@@ -576,6 +589,22 @@ a:hover {
 }
 
 @media screen and (max-width: 767px) {
+  .privacyText li p {
+    font-size: 4.27vw;
+  }
+
+  .privacyText li p span {
+    font-size: 4.27vw;
+  }
+
+  .lineBeforeLi {
+    margin-top: 4.4vw;
+  }
+
+  .before_text {
+    margin: 1.25vw 0 0 4.34vw;
+  }
+
   main > img {
     width: 100vw;
   }
