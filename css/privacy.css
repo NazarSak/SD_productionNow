@@ -103,7 +103,7 @@ a:hover {
 .privacyText li p {
   font-family: Montserrat;
   color: var(--grey-C, #cfcfcf);
-  font-size: 16px;
+  font-size: 0.83vw;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -112,7 +112,7 @@ a:hover {
 
 .boldSpan {
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 0.83vw;
   font-style: normal;
   font-weight: 500;
   line-height: 160%; 
