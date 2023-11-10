@@ -62,6 +62,7 @@ h3 {
 
 a {
   transition: 0.7s;
+  color: var(--grey-C, #CFCFCF);
   opacity: 100;
 }
 a:hover {
@@ -109,17 +110,13 @@ a:hover {
 }
 
 .privacyText li p span {
-  background: linear-gradient(90deg, #BD00FF 40.17%, #3604C3 80.97%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #9A00D0;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
-  letter-spacing: -0.4px;
-  
+  letter-spacing: -0.4px; 
 }
 
 .lineBeforeLi {
@@ -129,6 +126,9 @@ a:hover {
   margin-right: 0.82vw;
   background: #cfcfcf;
   position: absolute;
+}
+.underLine {
+  text-decoration-line: underline;
 }
 
 .return_header {
@@ -150,6 +150,7 @@ a:hover {
 
 .return_header p {
   transition: 0.2s;
+  color: var(--grey-C, #CFCFCF);
 }
 
 .return_header p:hover,
@@ -170,6 +171,7 @@ a:hover {
 
 .return_header .go_home {
   transition: all 0.2s;
+  color: var(--grey-C, #CFCFCF);
 }
 
 .return_header:hover .go_home {
@@ -791,4 +793,3 @@ a:hover {
     padding: 0 4.267vw;
   }
 }
-
