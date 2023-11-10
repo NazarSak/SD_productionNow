@@ -244,9 +244,11 @@
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     gap: 1vw;
-    width: 23vw;
+    width: 450px;
     font-size: 0.83vw;
     list-style: none;
+    transition: all 0.3s;
+  
   }
   footer .navigator li {
     text-align: center;

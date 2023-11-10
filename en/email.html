@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/email.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css"
+    />
     <title>Email page</title>
   </head>
   <body>
-
- 
     <header>
       <div>
         <a href="../en/home.html">
@@ -53,16 +55,26 @@
         </div>
       </div>
     </header>
-  
 
-      <a class="buttonClose" href="./home.html"></a>
-
+    <a class="buttonClose" href="./home.html"></a>
     <div class="emailForm">
       <h1>Contact <span class="borderText">Us</span></h1>
       <p>We'll help you find the right plan and pricing for your business.</p>
       <form class="email">
-        <input class="text" type="text" name="name" placeholder="Name *" required/>
-        <input class="text emailInput" type="email" name="email" placeholder="Email *" required/>
+        <input
+          class="text"
+          type="text"
+          name="name"
+          placeholder="Name *"
+          required
+        />
+        <input
+          class="text emailInput"
+          type="email"
+          name="email"
+          placeholder="Email *"
+          required
+        />
         <input
           class="message"
           type="text"
@@ -75,8 +87,47 @@
     <script src="../js/formData.js"></script>
     <script src="../js/buttonOnclik.js"></script>
     <script src="../js/language.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+      integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
+      crossorigin="anonymous"
+    ></script>
     <script src="../js/SmoothScroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script>
+      const form = document.querySelector(".email");
+      const nameInput = form.querySelector('[name="name"]');
+      const emailInput = form.querySelector('[name="email"]');
+      const messageInput = form.querySelector('[name="message"]');
 
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        nameInput.value = "";
+        emailInput.value = "";
+        messageInput.value = "";
+        const notyf = new Notyf({
+          duration: 2000,
+          types: [
+            {
+              type: "warning",
+              background: "orange",
+              icon: {
+                className: "material-icons",
+                tagName: "i",
+                text: "warning",
+              },
+            },
+            {
+              type: "error",
+              background: "indianred",
+              duration: 2000,
+              dismissible: true,
+            },
+          ],
+        });
+        notyf.success("Ihre Nachricht wurde gesendet!");
+      });
+    </script>
   </body>
 </html>
