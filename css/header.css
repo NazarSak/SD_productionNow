@@ -126,10 +126,11 @@
 
 @media only screen and (max-width: 1179px) {
   header {
+    margin-right: auto;
     margin-top: 0;
     padding: 10vw 5vw;
     height: min-content;
-    width: 90vw;
+    width: 70vw;
     z-index: 100;
     display: flex;
     justify-content: space-between;
@@ -140,7 +141,6 @@
     opacity: 0;
     border-radius: 2.6vw;
     justify-content: space-between;
-
     background: transparent;
   }
   .langChange {
@@ -211,6 +211,7 @@
     margin-left: 12.53vw;
     width: 3.13vw;
     height: 3.13vw;
+    transition: all 0.5s;
   }
   .langShow .langImg {
     position: absolute;
@@ -218,6 +219,7 @@
     margin-left: 12.53vw;
     width: 3.13vw;
     height: 3.13vw;
+    transition: all 0.5s;
   }
   .HamburgerMenuNav {
     position: fixed;
@@ -305,9 +307,6 @@
     width: 1px;
     height: 5.33vw;
     background: #181818;
-  }
-  .langChange {
-    display: none;
   }
   header .logo {
     width: 22.4vw;
